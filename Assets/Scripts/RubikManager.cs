@@ -84,20 +84,17 @@ public class RubikManager : MonoBehaviour
                 }
 
                 DOTween.Sequence()
-                    .Append(center.transform.DORotate(vec * 90, 0.2f, RotateMode.LocalAxisAdd))
-                    .Append(center.transform.DORotate(vec * -90, 0.0f, RotateMode.LocalAxisAdd))
-                    .AppendCallback(() => _nears.ForEach(_ => _.transform.SetParent(transform)))
+                    .Append(center.transform.DORotate(vec * 90, 0.2f, RotateMode.WorldAxisAdd))
+                    .Append(center.transform.DORotate(vec * -90, 0.0f, RotateMode.WorldAxisAdd))
+                    .AppendCallback(() => _nears.ForEach(_ =>
+                    {
+                        _.transform.SetParent(transform);
+                    }))
                     .Play();
             })
-            .AppendInterval(1.0f)
+            .AppendInterval(0.3f)
             .SetLoops(-1)
             .Play();
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
 
     }
 }
