@@ -8,10 +8,9 @@ public sealed class SceneInfo
 	/// </summary>
 	public enum SceneEnum
 	{
-		MockGame = 0
 	};
 	/// <summary>
 	/// Access Scene Name Array
 	/// </summary>
-	public static readonly string[] SceneNames = new string[] { "MockGame" }; 
+	public static readonly string[] SceneNames = new string[] { }; 
 }
