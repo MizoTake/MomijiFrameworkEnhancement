@@ -25,4 +25,4 @@ Material:
     m_Floats:
     - _Width: 0.005
     m_Colors:
-    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _Color: {r: 0.18498743, g: 1, b: 0, a: 1}
