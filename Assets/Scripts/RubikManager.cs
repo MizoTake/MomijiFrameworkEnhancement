@@ -10,28 +10,37 @@ public class RubikManager : MonoBehaviour
     public Material cubeShader;
 
     [SerializeField]
-    private int ONE_SIDE = 3;
+    private int ONE_SIDE = 1;
     [SerializeField, Range(0.0f, 10.0f)]
     private float ONE_SIDE_DISTANCE = 1.5f;
     [SerializeField]
     private float BLOCK_SCALE = 1.0f;
+
     private GameObject[,,] rubikCube;
 
     private List<GameObject> _nears = new List<GameObject>();
-    private Sequence _rotateAnim;
+
+    // void OnValidate()
+    // {
+    //     for (int i = 0; i < transform.childCount; i++)
+    //     {
+    //         Destroy(transform.GetChild(i).gameObject);
+    //     }
+    //     Start();
+    // }
 
     // Use this for initialization
     void Start()
     {
-        rubikCube = new GameObject[ONE_SIDE, ONE_SIDE, ONE_SIDE];
-        for (int i = 0; i < ONE_SIDE; i++)
+        rubikCube = new GameObject[ONE_SIDE * 2 + 1, ONE_SIDE * 2 + 1, ONE_SIDE * 2 + 1];
+        for (int i = -ONE_SIDE; i <= ONE_SIDE; i++)
         {
-            for (int j = 0; j < ONE_SIDE; j++)
+            for (int j = -ONE_SIDE; j <= ONE_SIDE; j++)
             {
-                for (int k = 0; k < ONE_SIDE; k++)
+                for (int k = -ONE_SIDE; k <= ONE_SIDE; k++)
                 {
-                    var cube = rubikCube[i, j, k] = GameObject.CreatePrimitive(PrimitiveType.Cube);
-                    cube.transform.position = new Vector3(i - 1, j - 1, k - 1) * ONE_SIDE_DISTANCE;
+                    var cube = rubikCube[i + ONE_SIDE, j + ONE_SIDE, k + ONE_SIDE] = GameObject.CreatePrimitive(PrimitiveType.Cube);
+                    cube.transform.position = new Vector3(i, j, k) * ONE_SIDE_DISTANCE;
                     cube.transform.localScale = Vector3.one * BLOCK_SCALE;
                     cube.GetComponent<MeshRenderer>().material = cubeShader;
                     cube.transform.parent = transform;
@@ -43,25 +52,25 @@ public class RubikManager : MonoBehaviour
         transform.localScale = Vector3.one * 20;
 
         DOTween.Sequence()
-            .AppendInterval(0.3f)
+            .AppendInterval(0.5f)
             .AppendCallback(() =>
             {
                 _nears.Clear();
                 var vecRand = Random.Range(0, 3);
-                var target = Random.Range(0, 3);
-                var center = rubikCube[target, 1, 1];
+                var target = Random.Range(0, ONE_SIDE * 2 + 1);
+                var center = rubikCube[target, ONE_SIDE, ONE_SIDE];
                 switch (vecRand)
                 {
                     case 1:
-                        center = rubikCube[1, target, 1];
+                        center = rubikCube[ONE_SIDE, target, ONE_SIDE];
                         break;
                     case 2:
-                        center = rubikCube[1, 1, target];
+                        center = rubikCube[ONE_SIDE, ONE_SIDE, target];
                         break;
                 }
-                for (int i = 0; i < ONE_SIDE; i++)
+                for (int i = 0; i < ONE_SIDE * 2 + 1; i++)
                 {
-                    for (int j = 0; j < ONE_SIDE; j++)
+                    for (int j = 0; j < ONE_SIDE * 2 + 1; j++)
                     {
                         var obj = rubikCube[target, i, j];
                         switch (vecRand)
@@ -95,6 +104,7 @@ public class RubikManager : MonoBehaviour
                     .Append(center.transform.DOLocalRotate(vec * -90, 0.0f, RotateMode.WorldAxisAdd))
                     .AppendCallback(() => _nears.ForEach(_ =>
                     {
+                        Debug.Log("release");
                         _.transform.SetParent(transform);
                     }))
                     .Play();
