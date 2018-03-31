@@ -15,12 +15,16 @@ public class Rotation : MonoBehaviour
     private Vector3 _vector;
     [SerializeField]
     private float _rot;
+    [SerializeField]
+    private float _time = 1.0f;
 
     // Use this for initialization
     void Start()
     {
+        // TODO: _vectorを使用して扱えるようにする
         DOTween.Sequence()
-            .Append(transform.DORotate(Enum<Vector>.Random.EnumToNormalize() * _rot, 1.0f, _mode))
+            .AppendCallback(() => transform.DORotate(Enum<Vector>.Random.EnumToNormalize(true) * _rot, _time, _mode).Play())
+            .AppendInterval(_time)
             .SetEase(_easeType)
             .SetLoops(-1)
             .Play();

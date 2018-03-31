@@ -132,7 +132,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &163144291
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -215,6 +215,7 @@ MonoBehaviour:
   _mode: 1
   _vector: {x: 0, y: 1, z: 0}
   _rot: 360
+  _time: 1
 --- !u!114 &163144296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -517,3 +518,78 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1970887486
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1970887488}
+  - component: {fileID: 1970887487}
+  - component: {fileID: 1970887489}
+  - component: {fileID: 1970887490}
+  m_Layer: 0
+  m_Name: Rubik
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1970887487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1970887486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6096850210f80947a03652e759aa1b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cubeShader: {fileID: 2100000, guid: 03a322824eb2310488deb8ddafaddffc, type: 2}
+  ONE_SIDE: 3
+  ONE_SIDE_DISTANCE: 0.075
+  BLOCK_SCALE: 0.05
+--- !u!4 &1970887488
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1970887486}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1970887489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1970887486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7e047b500720ec49a38a0edd96a5d5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _minScale: 5
+  _maxScale: 10
+--- !u!114 &1970887490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1970887486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15e1be983a19f5d4d97191eeb64548f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _easeType: 16
+  _mode: 1
+  _vector: {x: 1, y: 1, z: 1}
+  _rot: 360
+  _time: 1

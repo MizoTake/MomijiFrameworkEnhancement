@@ -9,9 +9,13 @@ public class RubikManager : MonoBehaviour
 
     public Material cubeShader;
 
-    private const int ONE_SIDE = 3;
-    private const float ONE_SIDE_DISTANCE = 1.5f;
-    private GameObject[,,] rubikCube = new GameObject[3, 3, 3];
+    [SerializeField]
+    private int ONE_SIDE = 3;
+    [SerializeField, Range(0.0f, 10.0f)]
+    private float ONE_SIDE_DISTANCE = 1.5f;
+    [SerializeField]
+    private float BLOCK_SCALE = 1.0f;
+    private GameObject[,,] rubikCube;
 
     private List<GameObject> _nears = new List<GameObject>();
     private Sequence _rotateAnim;
@@ -19,6 +23,7 @@ public class RubikManager : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        rubikCube = new GameObject[ONE_SIDE, ONE_SIDE, ONE_SIDE];
         for (int i = 0; i < ONE_SIDE; i++)
         {
             for (int j = 0; j < ONE_SIDE; j++)
@@ -27,6 +32,7 @@ public class RubikManager : MonoBehaviour
                 {
                     var cube = rubikCube[i, j, k] = GameObject.CreatePrimitive(PrimitiveType.Cube);
                     cube.transform.position = new Vector3(i - 1, j - 1, k - 1) * ONE_SIDE_DISTANCE;
+                    cube.transform.localScale = Vector3.one * BLOCK_SCALE;
                     cube.GetComponent<MeshRenderer>().material = cubeShader;
                     cube.transform.parent = transform;
                     cube.name += i + " " + j + " " + k;
@@ -37,6 +43,7 @@ public class RubikManager : MonoBehaviour
         transform.localScale = Vector3.one * 20;
 
         DOTween.Sequence()
+            .AppendInterval(0.3f)
             .AppendCallback(() =>
             {
                 _nears.Clear();
@@ -84,15 +91,14 @@ public class RubikManager : MonoBehaviour
                 }
 
                 DOTween.Sequence()
-                    .Append(center.transform.DORotate(vec * 90, 0.2f, RotateMode.WorldAxisAdd))
-                    .Append(center.transform.DORotate(vec * -90, 0.0f, RotateMode.WorldAxisAdd))
+                    .Append(center.transform.DOLocalRotate(vec * 90, 0.2f, RotateMode.WorldAxisAdd))
+                    .Append(center.transform.DOLocalRotate(vec * -90, 0.0f, RotateMode.WorldAxisAdd))
                     .AppendCallback(() => _nears.ForEach(_ =>
                     {
                         _.transform.SetParent(transform);
                     }))
                     .Play();
             })
-            .AppendInterval(0.3f)
             .SetLoops(-1)
             .Play();
 
