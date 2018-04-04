@@ -8,22 +8,31 @@ public class RandomScale : MonoBehaviour
 {
 
     [SerializeField]
+    private bool _initStart = true;
+    [SerializeField]
     private float _minScale;
     [SerializeField]
     private float _maxScale;
 
+    public float Time { get; set; } = 1.0f;
+
     // Use this for initialization
     void Start()
     {
-        StartCoroutine(RoopScale());
+        if (_initStart) Run();
+    }
+
+    public void Run()
+    {
+        transform.DOScale(Vector3.zero.RandomRange(_minScale, _maxScale), Time).Play();
     }
 
     IEnumerator RoopScale()
     {
-        while (true)
+        while (_initStart)
         {
-            transform.DOScale(Vector3.zero.RandomRange(_minScale, _maxScale), 1.0f).Play();
-            yield return new WaitForSeconds(1.0f);
+            transform.DOScale(Vector3.zero.RandomRange(_minScale, _maxScale), Time).Play();
+            yield return new WaitForSeconds(Time);
         }
     }
 }
