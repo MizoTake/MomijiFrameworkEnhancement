@@ -68,6 +68,8 @@ public class RubikManager : MonoBehaviour
 
     private IEnumerator Roop(Vector3 blockScale)
     {
+        var centers = new List<GameObject>();
+        var vectors = new List<Vector3>();
         while (true)
         {
             var animTime = 0.2f * (_controller.Power * AMP);
@@ -84,62 +86,75 @@ public class RubikManager : MonoBehaviour
                             DOTween.Sequence()
                                 .Append(rubikCube[i + ONE_SIDE, j + ONE_SIDE, k + ONE_SIDE].transform.DOPunchPosition(initPos[i + ONE_SIDE, j + ONE_SIDE, k + ONE_SIDE], animTime / 2.0f))
                                 .Append(rubikCube[i + ONE_SIDE, j + ONE_SIDE, k + ONE_SIDE].transform.DOLocalMove(initPos[i + ONE_SIDE, j + ONE_SIDE, k + ONE_SIDE], animTime / 2.0f))
+                                .Join(rubikCube[i + ONE_SIDE, j + ONE_SIDE, k + ONE_SIDE].transform.DOLocalRotate(Vector3.zero, animTime / 2.0f))
                                 .Play();
                         }
                     }
                 }
-                yield return new WaitForSeconds(animTime + 0.3f);
+                yield return new WaitForSeconds(animTime + 0.5f);
                 continue;
             }
 
             _nears.Clear();
-            var vecRand = Random.Range(0, 3);
-            var target = Random.Range(0, ONE_SIDE * 2 + 1);
-            var center = rubikCube[target, ONE_SIDE, ONE_SIDE];
-            switch (vecRand)
+            centers.Clear();
+            vectors.Clear();
+            var randomCnt = (int)Random.Range(ONE_SIDE * 3, ONE_SIDE * (_controller.Time % 30.0f));
+
+            for (int n = 0; n < randomCnt; n++)
             {
-                case 1:
-                    center = rubikCube[ONE_SIDE, target, ONE_SIDE];
-                    break;
-                case 2:
-                    center = rubikCube[ONE_SIDE, ONE_SIDE, target];
-                    break;
-            }
-            for (int i = 0; i < ONE_SIDE * 2 + 1; i++)
-            {
-                for (int j = 0; j < ONE_SIDE * 2 + 1; j++)
+                var vecRand = Random.Range(0, 3);
+                var target = Random.Range(0, ONE_SIDE * 2 + 1);
+                var center = rubikCube[target, ONE_SIDE, ONE_SIDE];
+                switch (vecRand)
                 {
-                    var obj = rubikCube[target, i, j];
-                    switch (vecRand)
-                    {
-                        case 1:
-                            obj = rubikCube[i, target, j];
-                            break;
-                        case 2:
-                            obj = rubikCube[i, j, target];
-                            break;
-                    }
-                    if (obj == center) continue;
-                    obj.transform.SetParent(center.transform);
-                    _nears.Add(obj);
+                    case 1:
+                        center = rubikCube[ONE_SIDE, target, ONE_SIDE];
+                        break;
+                    case 2:
+                        center = rubikCube[ONE_SIDE, ONE_SIDE, target];
+                        break;
                 }
+                for (int i = 0; i < ONE_SIDE * 2 + 1; i++)
+                {
+                    for (int j = 0; j < ONE_SIDE * 2 + 1; j++)
+                    {
+                        var obj = rubikCube[target, i, j];
+                        switch (vecRand)
+                        {
+                            case 1:
+                                obj = rubikCube[i, target, j];
+                                break;
+                            case 2:
+                                obj = rubikCube[i, j, target];
+                                break;
+                        }
+                        if (obj == center) continue;
+                        obj.transform.SetParent(center.transform);
+                        _nears.Add(obj);
+                    }
+                }
+
+                var vec = Vector3.right;
+                switch (vecRand)
+                {
+                    case 1:
+                        vec = Vector3.up;
+                        break;
+                    case 2:
+                        vec = Vector3.forward;
+                        break;
+                }
+                centers.Add(center);
+                vectors.Add(vec);
             }
 
-            var vec = Vector3.right;
-            switch (vecRand)
-            {
-                case 1:
-                    vec = Vector3.up;
-                    break;
-                case 2:
-                    vec = Vector3.forward;
-                    break;
-            }
-
-            _ranScale.Time = animTime;
-            _ranScale.Run();
+            // _ranScale.Time = animTime;
+            // _ranScale.Run();
+            var clamp = Mathf.Clamp(_controller.Power, 0.001f, 10000f);
+            transform.DOScale(Vector3.one * AMP * clamp, animTime).Play();
             _rot.Time = animTime;
             _rot.Run();
+
 
             var randomValue = new int[3];
             for (int i = 0; i < 3; i++)
@@ -151,11 +166,17 @@ public class RubikManager : MonoBehaviour
                 .Append(rubikCube[randomValue[0], randomValue[1], randomValue[2]].transform.DOScale(_controller.Power * blockScale / 10.0f, animTimeHalf))
                 .Append(rubikCube[randomValue[0], randomValue[1], randomValue[2]].transform.DOScale(blockScale, animTimeHalf));
 
-            DOTween.Sequence()
-                .Append(center.transform.DOLocalRotate(vec * 90, animTime, RotateMode.LocalAxisAdd))
-                // .Join(scaleAnim)
-                // .Append(center.transform.DOLocalRotate(vec * -90, 0.0f, RotateMode.LocalAxisAdd))
-                .AppendCallback(() => _nears.ForEach(_ =>
+
+            var result = DOTween.Sequence();
+
+
+            for (int i = 0; i < centers.Count; i++)
+            {
+                result.Append(centers[i].transform.DOLocalRotate(vectors[i] * 90, animTime, RotateMode.LocalAxisAdd));
+            }
+            // .Join(scaleAnim)
+            // .Append(center.transform.DOLocalRotate(vec * -90, 0.0f, RotateMode.LocalAxisAdd))
+            result.AppendCallback(() => _nears.ForEach(_ =>
                 {
                     _.transform.SetParent(transform);
                 }))
