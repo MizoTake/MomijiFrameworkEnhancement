@@ -11,6 +11,8 @@ public class ControllerFromSound : MonoBehaviour
     [SerializeField]
     private AudioSource _source;
 
+    public float AMP = 10.0f;
+
     public float Time { get; private set; }
     public float Power { get; private set; }
 

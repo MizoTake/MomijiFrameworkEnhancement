@@ -7,9 +7,6 @@ using System.Threading;
 
 public class RubikManager : MonoBehaviour
 {
-
-    private const float AMP = 10.0f;
-
     public Material cubeShader;
 
     [SerializeField]
@@ -72,7 +69,8 @@ public class RubikManager : MonoBehaviour
         var vectors = new List<Vector3>();
         while (true)
         {
-            var animTime = 0.2f * (_controller.Power * AMP);
+            var clampPower = Mathf.Clamp(_controller.Power, 0.001f, 10000f);
+            var animTime = 0.2f * (_controller.Power * _controller.AMP);
             var animTimeHalf = (float)System.Math.Round(animTime / 2.0f, 5, System.MidpointRounding.AwayFromZero);
 
             if (_controller.Power > 0.4f)
@@ -83,10 +81,14 @@ public class RubikManager : MonoBehaviour
                     {
                         for (int k = -ONE_SIDE; k <= ONE_SIDE; k++)
                         {
+                            var cube = rubikCube[i + ONE_SIDE, j + ONE_SIDE, k + ONE_SIDE];
+                            ONE_SIDE_DISTANCE = (clampPower + ONE_SIDE_DISTANCE) / 1.1f;
                             DOTween.Sequence()
-                                .Append(rubikCube[i + ONE_SIDE, j + ONE_SIDE, k + ONE_SIDE].transform.DOPunchPosition(initPos[i + ONE_SIDE, j + ONE_SIDE, k + ONE_SIDE], animTime / 2.0f))
-                                .Append(rubikCube[i + ONE_SIDE, j + ONE_SIDE, k + ONE_SIDE].transform.DOLocalMove(initPos[i + ONE_SIDE, j + ONE_SIDE, k + ONE_SIDE], animTime / 2.0f))
-                                .Join(rubikCube[i + ONE_SIDE, j + ONE_SIDE, k + ONE_SIDE].transform.DOLocalRotate(Vector3.zero, animTime / 2.0f))
+                                .Append(cube.transform.DOPunchPosition(initPos[i + ONE_SIDE, j + ONE_SIDE, k + ONE_SIDE], animTime / 2.0f))
+                                .Append(cube.transform.DOLocalMove(initPos[i + ONE_SIDE, j + ONE_SIDE, k + ONE_SIDE], animTime / 2.0f))
+                                .Join(cube.transform.DOLocalRotate(Vector3.zero, animTime / 2.0f))
+                                .AppendInterval(0.3f)
+                                .Append(cube.transform.DOLocalMove(initPos[i + ONE_SIDE, j + ONE_SIDE, k + ONE_SIDE] * ONE_SIDE_DISTANCE, animTime))
                                 .Play();
                         }
                     }
@@ -150,8 +152,7 @@ public class RubikManager : MonoBehaviour
 
             // _ranScale.Time = animTime;
             // _ranScale.Run();
-            var clamp = Mathf.Clamp(_controller.Power, 0.001f, 10000f);
-            transform.DOScale(Vector3.one * AMP * clamp, animTime).Play();
+            transform.DOScale(Vector3.one * _controller.AMP * clampPower, animTime).Play();
             _rot.Time = animTime;
             _rot.Run();
 
