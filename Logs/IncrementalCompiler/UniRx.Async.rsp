@@ -2,7 +2,7 @@
 -target:library
 -nowarn:0169
 -langversion:7
--out:F:/UnityProject/MomijiFrameworkEnhancement/Temp/UnityEditor.StandardEvents.dll
+-out:F:/UnityProject/MomijiFrameworkEnhancement/Temp/UniRx.Async.dll
 -nostdlib
 -unsafe
 -r:"D:\Program Files\2018.2.6f1\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
@@ -38,7 +38,6 @@
 -r:"D:\Program Files\2018.2.6f1\Editor\Data\Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
 -r:"D:\Program Files\2018.2.6f1\Editor\Data\Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
 -r:"D:\Program Files\2018.2.6f1\Editor\Data\Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
--r:"D:\Program Files\2018.2.6f1\Editor\Data\Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll"
 -r:"D:\Program Files\2018.2.6f1\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
 -r:"D:\Program Files\2018.2.6f1\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
 -r:"D:\Program Files\2018.2.6f1\Editor\Data\Managed/UnityEngine/UnityEngine.StreamingModule.dll"
@@ -304,5 +303,92 @@
 -d:ENABLE_UNITY_COLLECTIONS_CHECKS
 -d:ENABLE_BURST_AOT
 -d:UNITY_TEAM_LICENSE
--i:C:/Users/TakeruDesk/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/Editor/Importer.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/AsyncUnit.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/CancellationTokenEqualityComparer.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/CancellationTokenExtensions.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/CancellationTokenSourceExtensions.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/CompilerServices/AsyncMethodBuilderAttribute.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/CompilerServices/AsyncUniTaskMethodBuilder.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/CompilerServices/AsyncUniTaskVoidMethodBuilder.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/CompilerServices/MoveNextRunner.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/DiagnosticsExtensions.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/EnumerableAsyncExtensions.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/EnumeratorAsyncExtensions.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/IAwaiter.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Internal/ArrayPool.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Internal/ArrayPoolUtil.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Internal/ArrayUtil.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Internal/CancellationTokenHelper.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Internal/ContinuationQueue.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Internal/Error.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Internal/Hack.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Internal/LazyPromise.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Internal/MinimumQueue.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Internal/PlayerLoopRunner.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Internal/PromiseHelper.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Internal/ReusablePromise.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Internal/RuntimeHelpersAbstraction.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Internal/TaskTracker.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Internal/WeakDictionary.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/PlayerLoopHelper.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Progress.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncAnimatorTrigger.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncAwakeTrigger.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncBeginDragTrigger.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncCancelTrigger.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncCanvasGroupChangedTrigger.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncCollision2DTrigger.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncCollisionTrigger.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncDeselectTrigger.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncDestroyTrigger.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncDragTrigger.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncDropTrigger.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncEnableDisableTrigger.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncEndDragTrigger.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncEventTrigger.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncFixedUpdateTrigger.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncInitializePotentialDragTrigger.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncJointTrigger.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncLateUpdateTrigger.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncMouseTrigger.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncMoveTrigger.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncParticleTrigger.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncPointerClickTrigger.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncPointerDownTrigger.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncPointerEnterTrigger.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncPointerExitTrigger.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncPointerUpTrigger.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncRectTransformTrigger.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncScrollTrigger.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncSelectTrigger.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncStartTrigger.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncSubmitTrigger.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncTransformChangedTrigger.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncTrigger2DTrigger.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncTriggerBase.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncTriggerExtensions.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncTriggerTrigger.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncUpdateSelectedTrigger.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncUpdateTrigger.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncVisibleTrigger.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/UniTask.Bridge.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/UniTask.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/UniTask.Delay.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/UniTask.Factory.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/UniTask.Run.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/UniTask.Threading.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/UniTask.WaitUntil.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/UniTask.WhenAll.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/UniTask.WhenAll.Generated.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/UniTask.WhenAny.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/UniTask.WhenAny.Generated.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/UniTaskCompletionSource.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/UniTaskExtensions.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/UniTaskExtensions.Shorthand.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/UniTaskScheduler.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/UniTaskVoid.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/UnityAsyncExtensions.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/UnityAsyncExtensions.Jobs.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/UnityAsyncExtensions.uGUI.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/UnityEqualityComparer.cs
 -v:0

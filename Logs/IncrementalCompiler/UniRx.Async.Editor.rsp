@@ -2,9 +2,10 @@
 -target:library
 -nowarn:0169
 -langversion:7
--out:F:/UnityProject/MomijiFrameworkEnhancement/Temp/UnityEditor.StandardEvents.dll
+-out:F:/UnityProject/MomijiFrameworkEnhancement/Temp/UniRx.Async.Editor.dll
 -nostdlib
 -unsafe
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/UniRx.Async.dll
 -r:"D:\Program Files\2018.2.6f1\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
 -r:"D:\Program Files\2018.2.6f1\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
 -r:"D:\Program Files\2018.2.6f1\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
@@ -304,5 +305,7 @@
 -d:ENABLE_UNITY_COLLECTIONS_CHECKS
 -d:ENABLE_BURST_AOT
 -d:UNITY_TEAM_LICENSE
--i:C:/Users/TakeruDesk/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/Editor/Importer.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Editor/SplitterGUILayout.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Editor/UniTaskTrackerTreeView.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/UniRx/Scripts/Async/Editor/UniTaskTrackerWindow.cs
 -v:0

@@ -77,6 +77,9 @@
 -r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
 -r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.Burst.Editor.dll
 -r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/UniRx.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/UniRx.Async.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/UniRx.Async.Editor.dll
 -r:"D:/Program Files/2018.2.6f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
 -r:"D:/Program Files/2018.2.6f1/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
 -r:"D:/Program Files/2018.2.6f1/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll"
@@ -324,6 +327,7 @@
 -i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/MomijiFramework/Editor/CreateScriptableObjectMenu.cs
 -i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/MomijiFramework/Editor/CreateUseLicenseFile.cs
 -i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/MomijiFramework/Editor/EditorExtensionConst.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/MomijiFramework/Editor/MomijPostprocesser.cs
 -i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/PostProcessing/Editor/Attributes/PostProcessingModelEditorAttribute.cs
 -i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/PostProcessing/Editor/Models/AmbientOcclusionModelEditor.cs
 -i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/PostProcessing/Editor/Models/AntialiasingModelEditor.cs
