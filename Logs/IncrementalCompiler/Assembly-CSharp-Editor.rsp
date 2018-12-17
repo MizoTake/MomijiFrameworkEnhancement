@@ -5,7 +5,6 @@
 -out:F:/UnityProject/MomijiFrameworkEnhancement/Temp/Assembly-CSharp-Editor.dll
 -nostdlib
 -unsafe
--r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Assembly-CSharp.dll
 -r:"D:\Program Files\2018.2.6f1\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
 -r:"D:\Program Files\2018.2.6f1\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
 -r:"D:\Program Files\2018.2.6f1\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
@@ -70,16 +69,17 @@
 -r:"D:\Program Files\2018.2.6f1\Editor\Data\Managed/UnityEditor.dll"
 -r:"D:\Program Files\2018.2.6f1\Editor\Data\Managed/Unity.Locator.dll"
 -r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Assembly-CSharp.dll
 -r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/UniRx.dll
 -r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll
 -r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
 -r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.Burst.dll
 -r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
--r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.Burst.Editor.dll
--r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.TextMeshPro.dll
--r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/UniRx.dll
 -r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/UniRx.Async.dll
 -r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/UniRx.Async.Editor.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.Burst.Editor.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.TextMeshPro.dll
 -r:"D:/Program Files/2018.2.6f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
 -r:"D:/Program Files/2018.2.6f1/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
 -r:"D:/Program Files/2018.2.6f1/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll"
