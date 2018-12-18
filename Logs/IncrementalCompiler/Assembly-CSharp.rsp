@@ -21,6 +21,14 @@
 -r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Zenject.dll
 -r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
 -r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.VisualEffectGraph.Editor.dll
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"

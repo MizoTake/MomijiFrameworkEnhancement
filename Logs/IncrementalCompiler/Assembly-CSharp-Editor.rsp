@@ -22,6 +22,14 @@
 -r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Zenject.dll
 -r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
 -r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.VisualEffectGraph.Editor.dll
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
@@ -119,6 +127,7 @@
 -r:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll
 -r:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll
 -r:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Editor/Core/ShaderGenerator/ICSharpCode.NRefactory.dll
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll"
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.dll"
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Core.dll"

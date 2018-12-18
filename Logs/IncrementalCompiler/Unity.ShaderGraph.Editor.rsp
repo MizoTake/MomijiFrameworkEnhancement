@@ -1,0 +1,718 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:7
+-out:F:/UnityProject/MomijiFrameworkEnhancement/Temp/Unity.ShaderGraph.Editor.dll
+-nostdlib
+-unsafe
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.BaselibModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TLSModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TextCoreModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TimelineModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UNETModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.VFXModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.VRModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEditor.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/Unity.Locator.dll"
+-r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
+-r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
+-r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll"
+-r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll"
+-r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll"
+-r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
+-r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll"
+-r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
+-r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
+-r:"D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEditor.Graphs.dll"
+-r:"D:/Program Files/2018.3.0f2/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll"
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Demigiant/DOTween/DOTween.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Demigiant/DOTween/DOTween43.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Demigiant/DOTween/DOTween46.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Demigiant/DOTween/DOTween50.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Demigiant/DOTween/Editor/DOTweenEditor.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Mdb.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Pdb.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Rocks.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/Zenject/Source/Usage/Zenject-usage.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.ads@2.3.1/Editor/UnityEditor.Advertisements.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Editor/Core/ShaderGenerator/ICSharpCode.NRefactory.dll
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Core.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Runtime.Serialization.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Xml.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Xml.Linq.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Numerics.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Numerics.Vectors.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Net.Http.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Microsoft.CSharp.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Data.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\Microsoft.Win32.Primitives.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\netstandard.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.AppContext.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.Concurrent.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.NonGeneric.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.Specialized.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.Annotations.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.EventBasedAsync.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.Primitives.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.TypeConverter.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Console.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Data.Common.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Contracts.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Debug.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.FileVersionInfo.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Process.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.StackTrace.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.TextWriterTraceListener.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Tools.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.TraceSource.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Drawing.Primitives.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Dynamic.Runtime.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.Calendars.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.Extensions.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.Compression.ZipFile.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.DriveInfo.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.Primitives.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.Watcher.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.IsolatedStorage.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.MemoryMappedFiles.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.Pipes.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.UnmanagedMemoryStream.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Expressions.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Parallel.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Queryable.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Http.Rtc.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.NameResolution.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.NetworkInformation.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Ping.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Primitives.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Requests.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Security.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Sockets.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebHeaderCollection.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebSockets.Client.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebSockets.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ObjectModel.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.ILGeneration.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.Lightweight.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Extensions.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Primitives.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.Reader.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.ResourceManager.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.Writer.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.CompilerServices.VisualC.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Extensions.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Handles.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.RuntimeInformation.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Numerics.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Formatters.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Json.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Primitives.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Xml.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Claims.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Algorithms.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Csp.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Encoding.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Primitives.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.X509Certificates.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Principal.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.SecureString.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Duplex.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Http.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.NetTcp.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Primitives.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Security.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.Encoding.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.Encoding.Extensions.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.RegularExpressions.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Overlapped.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Tasks.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Tasks.Parallel.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Thread.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.ThreadPool.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Timer.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ValueTuple.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.ReaderWriter.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XDocument.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XmlDocument.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XmlSerializer.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.XDocument.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\UnityScript.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\UnityScript.Lang.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\Boo.Lang.dll"
+-d:UNITY_5_3_OR_NEWER
+-d:UNITY_5_4_OR_NEWER
+-d:UNITY_5_5_OR_NEWER
+-d:UNITY_5_6_OR_NEWER
+-d:UNITY_2017_1_OR_NEWER
+-d:UNITY_2017_2_OR_NEWER
+-d:UNITY_2017_3_OR_NEWER
+-d:UNITY_2017_4_OR_NEWER
+-d:UNITY_2018_1_OR_NEWER
+-d:UNITY_2018_2_OR_NEWER
+-d:UNITY_2018_3_OR_NEWER
+-d:UNITY_2018_3_0
+-d:UNITY_2018_3
+-d:UNITY_2018
+-d:UNITY_INCLUDE_TESTS
+-d:ENABLE_AUDIO
+-d:ENABLE_CACHING
+-d:ENABLE_CLOTH
+-d:ENABLE_DUCK_TYPING
+-d:ENABLE_MICROPHONE
+-d:ENABLE_MULTIPLE_DISPLAYS
+-d:ENABLE_PHYSICS
+-d:ENABLE_SPRITES
+-d:ENABLE_GRID
+-d:ENABLE_TILEMAP
+-d:ENABLE_TERRAIN
+-d:ENABLE_TEXTURE_STREAMING
+-d:ENABLE_DIRECTOR
+-d:ENABLE_UNET
+-d:ENABLE_LZMA
+-d:ENABLE_UNITYEVENTS
+-d:ENABLE_WEBCAM
+-d:ENABLE_WWW
+-d:ENABLE_CLOUD_SERVICES_COLLAB
+-d:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-d:ENABLE_CLOUD_SERVICES_ADS
+-d:ENABLE_CLOUD_HUB
+-d:ENABLE_CLOUD_PROJECT_ID
+-d:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-d:ENABLE_CLOUD_SERVICES_UNET
+-d:ENABLE_CLOUD_SERVICES_BUILD
+-d:ENABLE_CLOUD_LICENSE
+-d:ENABLE_EDITOR_HUB
+-d:ENABLE_EDITOR_HUB_LICENSE
+-d:ENABLE_WEBSOCKET_CLIENT
+-d:ENABLE_DIRECTOR_AUDIO
+-d:ENABLE_DIRECTOR_TEXTURE
+-d:ENABLE_TIMELINE
+-d:ENABLE_EDITOR_METRICS
+-d:ENABLE_EDITOR_METRICS_CACHING
+-d:ENABLE_MANAGED_JOBS
+-d:ENABLE_MANAGED_TRANSFORM_JOBS
+-d:ENABLE_MANAGED_ANIMATION_JOBS
+-d:INCLUDE_DYNAMIC_GI
+-d:INCLUDE_GI
+-d:ENABLE_MONO_BDWGC
+-d:PLATFORM_SUPPORTS_MONO
+-d:RENDER_SOFTWARE_CURSOR
+-d:INCLUDE_PUBNUB
+-d:ENABLE_VIDEO
+-d:ENABLE_CUSTOM_RENDER_TEXTURE
+-d:ENABLE_LOCALIZATION
+-d:PLATFORM_STANDALONE_WIN
+-d:PLATFORM_STANDALONE
+-d:UNITY_STANDALONE_WIN
+-d:UNITY_STANDALONE
+-d:ENABLE_SUBSTANCE
+-d:ENABLE_RUNTIME_GI
+-d:ENABLE_MOVIES
+-d:ENABLE_NETWORK
+-d:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-d:ENABLE_UNITYWEBREQUEST
+-d:ENABLE_CLOUD_SERVICES
+-d:ENABLE_CLOUD_SERVICES_ANALYTICS
+-d:ENABLE_CLOUD_SERVICES_PURCHASING
+-d:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-d:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+-d:ENABLE_EVENT_QUEUE
+-d:ENABLE_CLUSTER_SYNC
+-d:ENABLE_CLUSTERINPUT
+-d:ENABLE_VR
+-d:ENABLE_AR
+-d:ENABLE_WEBSOCKET_HOST
+-d:ENABLE_MONO
+-d:NET_4_6
+-d:ENABLE_PROFILER
+-d:DEBUG
+-d:TRACE
+-d:UNITY_ASSERTIONS
+-d:UNITY_EDITOR
+-d:UNITY_EDITOR_64
+-d:UNITY_EDITOR_WIN
+-d:ENABLE_UNITY_COLLECTIONS_CHECKS
+-d:ENABLE_BURST_AOT
+-d:UNITY_TEAM_LICENSE
+-d:UNITY_POST_PROCESSING_STACK_V2
+-d:CSHARP_7_OR_LATER
+-d:CSHARP_7_3_OR_NEWER
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/AssetCallbacks/CreatePBRShaderGraph.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/AssetCallbacks/CreateShaderSubGraph.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/AssetCallbacks/CreateUnlitShaderGraph.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/AbstractMaterialGraph.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/AbstractMaterialGraphAsset.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/AbstractShaderProperty.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/BitangentMaterialSlot.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/BooleanMaterialSlot.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/BooleanShaderProperty.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/ColorMaterialSlot.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/ColorRGBMaterialSlot.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/ColorShaderProperty.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/CubemapInputMaterialSlot.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/CubemapMaterialSlot.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/CubemapShaderProperty.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/DynamicMatrixMaterialSlot.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/DynamicValueMaterialSlot.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/DynamicVectorMaterialSlot.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/GradientInputMaterialSlot.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/GradientMaterialSlot.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/GradientShaderProperty.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/IMaterialGraphAsset.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/IMaterialSlotHasValue.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/IShaderGraph.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/IShaderProperty.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/MaterialGraph.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/MaterialGraphAsset.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/MaterialSlot.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/Matrix2MaterialSlot.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/Matrix2ShaderProperty.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/Matrix3MaterialSlot.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/Matrix3ShaderProperty.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/Matrix4MaterialSlot.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/Matrix4ShaderProperty.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/MatrixShaderProperty.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/NormalMaterialSlot.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/PositionMaterialSlot.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/Precision.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/PreviewMode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/PreviewProperty.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/SamplerStateMaterialSlot.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/SamplerStateShaderProperty.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/ScreenPositionMaterialSlot.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/SerializableCubemap.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/SerializableGuid.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/SerializableMesh.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/SerializableTexture.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/SerializableTextureArray.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/ShaderGraphRequirements.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/SpaceMaterialSlot.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/TangentMaterialSlot.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/Texture2DArrayInputMaterialSlot.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/Texture2DArrayMaterialSlot.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/Texture2DArrayShaderProperty.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/Texture2DInputMaterialSlot.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/Texture2DMaterialSlot.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/Texture3DInputMaterialSlot.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/Texture3DMaterialSlot.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/Texture3DShaderProperty.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/TextureSamplerState.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/TextureShaderProperty.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/UVMaterialSlot.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/Vector1MaterialSlot.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/Vector1ShaderProperty.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/Vector2MaterialSlot.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/Vector2ShaderProperty.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/Vector3MaterialSlot.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/Vector3ShaderProperty.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/Vector4MaterialSlot.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/Vector4ShaderProperty.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/VectorShaderProperty.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/VertexColorMaterialSlot.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Graphs/ViewDirectionMaterialSlot.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Implementation/Edge.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Implementation/GraphObject.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Implementation/NodeUtils.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Implementation/SlotType.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Interfaces/GenerationMode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Interfaces/Graph/DrawState.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Interfaces/Graph/GraphDrawingData.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Interfaces/Graph/IEdge.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Interfaces/Graph/IGraph.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Interfaces/Graph/IGraphAsset.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Interfaces/Graph/IGraphObject.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Interfaces/Graph/INode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Interfaces/Graph/IOnAssetEnabled.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Interfaces/Graph/ISlot.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Interfaces/Graph/SlotReference.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Interfaces/IGenerateProperties.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Interfaces/IGeneratesBodyCode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Interfaces/IGeneratesFunction.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Interfaces/IHasSettings.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Interfaces/IMayRequireBitangent.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Interfaces/IMayRequireCameraOpaqueTexture.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Interfaces/IMayRequireDepthTexture.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Interfaces/IMayRequireFaceSign.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Interfaces/IMayRequireMeshUV.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Interfaces/IMayRequireNormal.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Interfaces/IMayRequirePosition.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Interfaces/IMayRequireScreenPosition.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Interfaces/IMayRequireTangent.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Interfaces/IMayRequireTime.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Interfaces/IMayRequireVertexColor.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Interfaces/IMayRequireViewDirection.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Interfaces/NeededCoordinateSpace.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/LightweightPipeline/LightweightFastBlinnMasterNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/MasterNodes/AlphaMode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/MasterNodes/DistortionMode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/MasterNodes/DoubleSidedMode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/MasterNodes/EmissionGIMode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/MasterNodes/IPBRSubShader.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/MasterNodes/ISubShader.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/MasterNodes/IUnlitSubShader.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/MasterNodes/PBRMasterNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/MasterNodes/SpecularOcclusionMode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/MasterNodes/UnlitMasterNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/AbstractMaterialNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Artistic/Adjustment/ChannelMixerNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Artistic/Adjustment/ContrastNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Artistic/Adjustment/HueNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Artistic/Adjustment/InvertColorsNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Artistic/Adjustment/ReplaceColorNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Artistic/Adjustment/SaturationNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Artistic/Adjustment/WhiteBalanceNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Artistic/Blend/BlendMode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Artistic/Blend/BlendNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Artistic/Filter/DitherNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Artistic/Mask/ChannelMaskNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Artistic/Mask/ColorMaskNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Artistic/Normal/NormalBlendNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Artistic/Normal/NormalFromHeightNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Artistic/Normal/NormalFromTextureNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Artistic/Normal/NormalReconstructZNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Artistic/Normal/NormalStrengthNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Artistic/Normal/NormalUnpackNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Artistic/Utility/ColorspaceConversion.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Channel/CombineNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Channel/FlipNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Channel/SplitNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Channel/SwizzleNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/CodeFunctionNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/FormerNameAttribute.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/FunctionMultiInput.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/GeometryNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/GuidEncoder.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/IMasterNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/Basic/BooleanNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/Basic/ColorNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/Basic/ConstantNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/Basic/IntegerNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/Basic/SliderNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/Basic/TimeNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/Basic/Vector1Node.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/Basic/Vector2Node.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/Basic/Vector3Node.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/Basic/Vector4Node.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/Geometry/BitangentVectorNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/Geometry/NormalVectorNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/Geometry/PositionNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/Geometry/ScreenPositionNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/Geometry/TangentVectorNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/Geometry/UVNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/Geometry/VertexColorNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/Geometry/ViewDirectionNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/Gradient/GradientNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/Gradient/SampleGradientNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/Lighting/AmbientNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/Lighting/BakedGINode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/Lighting/ReflectionProbeNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/Matrix/Matrix2Node.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/Matrix/Matrix3Node.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/Matrix/Matrix4Node.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/Matrix/TransformationMatrixNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/PBR/DielectricSpecularNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/PBR/MetalReflectanceNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/PropertyNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/Scene/CameraNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/Scene/FogNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/Scene/ObjectNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/Scene/SceneColorNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/Scene/SceneDepthNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/Scene/ScreenNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/Texture/CubemapAssetNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/Texture/SampleCubemapNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/Texture/SamplerStateNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/Texture/SampleTexture2DArrayNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/Texture/SampleTexture2DLODNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/Texture/SampleTexture2DNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/Texture/SampleTexture3DNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/Texture/TexelSizeNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/Texture/Texture2DArrayAssetNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/Texture/Texture2DAssetNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Input/Texture/Texture3DAssetNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/IPropertyFromNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/MasterNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Advanced/AbsoluteNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Advanced/ExponentialNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Advanced/LengthNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Advanced/LogNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Advanced/ModuloNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Advanced/NegateNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Advanced/NormalizeNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Advanced/PosterizeNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Advanced/ReciprocalNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Advanced/ReciprocalSquareRootNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Basic/AddNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Basic/DivideNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Basic/MultiplyNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Basic/PowerNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Basic/SquareRootNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Basic/SubtractNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Derivative/DDXNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Derivative/DDXYNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Derivative/DDYNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Interpolation/InverseLerpNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Interpolation/LerpNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Interpolation/SmoothstepNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Matrix/MatrixConstructionNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Matrix/MatrixDeterminantNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Matrix/MatrixSplitNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Matrix/MatrixTransposeNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Range/ClampNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Range/FractionNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Range/MaximumNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Range/MinimumNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Range/OneMinusNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Range/RandomRangeNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Range/RemapNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Range/SaturateNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Round/CeilingNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Round/FloorNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Round/RoundNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Round/SignNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Round/StepNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Round/TruncateNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Trigonometry/ArccosineNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Trigonometry/ArcsineNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Trigonometry/Arctangent2Node.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Trigonometry/ArctangentNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Trigonometry/CosineNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Trigonometry/DegreesToRadiansNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Trigonometry/HyperbolicCosineNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Trigonometry/HyperbolicSineNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Trigonometry/HyperbolicTangentNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Trigonometry/RadiansToDegreesNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Trigonometry/SineNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Trigonometry/TangentNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Vector/CrossProductNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Vector/DistanceNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Vector/DotProductNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Vector/FresnelEffectNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Vector/ProjectionNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Vector/ReflectionNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Vector/RejectionNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Vector/RotateAboutAxisNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Vector/SphereMaskNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Vector/TransformNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Wave/NoiseSineWaveNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Wave/SawtoothWaveNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Wave/SquareWaveNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Math/Wave/TriangleWaveNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/NormalMapSpace.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Procedural/CheckerboardNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Procedural/Noise/GradientNoiseNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Procedural/Noise/SimpleNoiseNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Procedural/Noise/VoronoiNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Procedural/Shape/EllipseNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Procedural/Shape/PolygonNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Procedural/Shape/RectangleNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Procedural/Shape/RoundedRectangleNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/PropertyType.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/ShaderStage.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/SlotValue.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/TitleAttribute.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Utility/Logic/AllNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Utility/Logic/AndNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Utility/Logic/AnyNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Utility/Logic/BranchNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Utility/Logic/ComparisonNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Utility/Logic/IsFrontFaceNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Utility/Logic/IsInfiniteNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Utility/Logic/IsNanNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Utility/Logic/NandNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Utility/Logic/NotNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Utility/Logic/OrNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Utility/PreviewNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/Utility/SubGraphNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/UV/FlipbookNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/UV/PolarCoordinatesNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/UV/RadialShearNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/UV/RotateNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/UV/SpherizeNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/UV/TilingAndOffsetNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/UV/TriplanarNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Nodes/UV/TwirlNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/SubGraph/MaterialSubGraphAsset.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/SubGraph/SubGraph.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/SubGraph/SubGraphOutputNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/SurfaceModel/SurfaceMaterialOptions.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/SurfaceModel/SurfaceMaterialTags.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Util/CubemapPropertyChunk.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Util/DictionaryPool.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Util/FunctionRegistry.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Util/GenerationResults.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Util/GraphContext.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Util/GraphUtil.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Util/Identifier.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Util/ListPool.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Util/Logging.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Util/MatrixNames.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Util/ObjectPool.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Util/PooledObject.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Util/PropertyCollector.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Util/QueuePool.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Util/ScreenSpaceType.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Util/SerializationHelper.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Util/ShaderGenerator.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Util/ShaderGeneratorNames.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Util/ShaderSourceMap.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Util/ShaderStringBuilder.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Util/StackPool.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Util/TextureType.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Data/Util/UvChannel.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/DefaultShaderIncludes.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Blackboard/BlackboardFieldPropertyView.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Blackboard/BlackboardProvider.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Controls/ButtonControl.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Controls/ChannelEnumControl.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Controls/ChannelEnumMaskControl.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Controls/ChannelMixerControl.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Controls/ColorControl.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Controls/CubemapControl.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Controls/DefaultControl.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Controls/DielectricSpecularControl.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Controls/EnumControl.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Controls/EnumConversionControl.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Controls/GradientControl.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Controls/IControlAttribute.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Controls/IntegerControl.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Controls/ObjectControl.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Controls/PopupControl.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Controls/SliderControl.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Controls/Texture3DControl.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Controls/TextureArrayControl.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Controls/TextureControl.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Controls/ToggleControl.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Controls/VectorControl.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/EdgeConnectorListener.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/INodeModificationListener.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Inspector/MasterPreviewView.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Inspector/WindowDockingLayout.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Manipulators/Draggable.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Manipulators/ResizeBorderFrame.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Manipulators/ResizeSideHandle.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Manipulators/Scrollable.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Manipulators/WindowDraggable.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/MaterialGraphEditWindow.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/MaterialGraphPreviewGenerator.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/PreviewManager.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/PreviewRate.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/SearchWindowProvider.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Views/FloatField.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Views/GradientEdge.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Views/GraphEditorView.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Views/MaterialGraphView.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Views/MaterialNodeView.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Views/NodeSettingsView.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Views/PBRSettingsView.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Views/PortInputView.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Views/PreviewSceneResources.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Views/PropertyRow.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Views/PropertySheet.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Views/ShaderPort.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Views/Slots/BooleanSlotControlView.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Views/Slots/ColorRGBSlotControlView.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Views/Slots/ColorSlotControlView.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Views/Slots/CubemapSlotControlView.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Views/Slots/GradientSlotControlView.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Views/Slots/LabelSlotControlView.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Views/Slots/MultiFloatSlotControlView.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Views/Slots/ScreenPositionSlotControlView.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Views/Slots/Texture3DSlotControlView.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Views/Slots/TextureArraySlotControlView.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Views/Slots/TextureSlotControlView.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Views/Slots/UVSlotControlView.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Drawing/Views/UnlitSettingsView.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Importers/ShaderGraphAssetPostProcessor.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Importers/ShaderGraphImporter.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Importers/ShaderGraphImporterEditor.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Importers/ShaderSubGraphImporter.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Importers/ShaderSubGraphImporterEditor.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/ShaderGUI/PBRMasterGUI.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Util/CompatibilityExtensions.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Util/CopyPasteGraph.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Util/CreateSerializableGraph.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Util/IndexSet.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Util/TypeMapper.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Util/TypeMapping.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.shadergraph@4.6.0-preview/Editor/Util/UIUtilities.cs
+-v:0

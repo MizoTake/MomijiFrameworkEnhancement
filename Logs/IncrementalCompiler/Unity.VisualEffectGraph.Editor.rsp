@@ -1,0 +1,741 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:7
+-out:F:/UnityProject/MomijiFrameworkEnhancement/Temp/Unity.VisualEffectGraph.Editor.dll
+-nostdlib
+-unsafe
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.BaselibModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TLSModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TextCoreModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TimelineModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UNETModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.VFXModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.VRModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEditor.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/Unity.Locator.dll"
+-r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
+-r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
+-r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll"
+-r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll"
+-r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll"
+-r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
+-r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll"
+-r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
+-r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
+-r:"D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEditor.Graphs.dll"
+-r:"D:/Program Files/2018.3.0f2/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll"
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Demigiant/DOTween/DOTween.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Demigiant/DOTween/DOTween43.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Demigiant/DOTween/DOTween46.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Demigiant/DOTween/DOTween50.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Demigiant/DOTween/Editor/DOTweenEditor.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Mdb.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Pdb.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Rocks.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/Zenject/Source/Usage/Zenject-usage.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.ads@2.3.1/Editor/UnityEditor.Advertisements.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Editor/Core/ShaderGenerator/ICSharpCode.NRefactory.dll
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Core.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Runtime.Serialization.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Xml.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Xml.Linq.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Numerics.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Numerics.Vectors.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Net.Http.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Microsoft.CSharp.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Data.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\Microsoft.Win32.Primitives.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\netstandard.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.AppContext.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.Concurrent.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.NonGeneric.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.Specialized.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.Annotations.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.EventBasedAsync.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.Primitives.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.TypeConverter.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Console.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Data.Common.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Contracts.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Debug.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.FileVersionInfo.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Process.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.StackTrace.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.TextWriterTraceListener.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Tools.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.TraceSource.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Drawing.Primitives.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Dynamic.Runtime.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.Calendars.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.Extensions.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.Compression.ZipFile.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.DriveInfo.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.Primitives.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.Watcher.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.IsolatedStorage.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.MemoryMappedFiles.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.Pipes.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.UnmanagedMemoryStream.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Expressions.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Parallel.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Queryable.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Http.Rtc.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.NameResolution.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.NetworkInformation.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Ping.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Primitives.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Requests.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Security.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Sockets.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebHeaderCollection.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebSockets.Client.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebSockets.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ObjectModel.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.ILGeneration.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.Lightweight.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Extensions.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Primitives.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.Reader.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.ResourceManager.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.Writer.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.CompilerServices.VisualC.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Extensions.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Handles.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.RuntimeInformation.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Numerics.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Formatters.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Json.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Primitives.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Xml.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Claims.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Algorithms.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Csp.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Encoding.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Primitives.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.X509Certificates.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Principal.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.SecureString.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Duplex.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Http.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.NetTcp.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Primitives.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Security.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.Encoding.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.Encoding.Extensions.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.RegularExpressions.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Overlapped.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Tasks.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Tasks.Parallel.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Thread.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.ThreadPool.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Timer.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ValueTuple.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.ReaderWriter.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XDocument.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XmlDocument.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XmlSerializer.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.XDocument.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\UnityScript.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\UnityScript.Lang.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\Boo.Lang.dll"
+-d:UNITY_5_3_OR_NEWER
+-d:UNITY_5_4_OR_NEWER
+-d:UNITY_5_5_OR_NEWER
+-d:UNITY_5_6_OR_NEWER
+-d:UNITY_2017_1_OR_NEWER
+-d:UNITY_2017_2_OR_NEWER
+-d:UNITY_2017_3_OR_NEWER
+-d:UNITY_2017_4_OR_NEWER
+-d:UNITY_2018_1_OR_NEWER
+-d:UNITY_2018_2_OR_NEWER
+-d:UNITY_2018_3_OR_NEWER
+-d:UNITY_2018_3_0
+-d:UNITY_2018_3
+-d:UNITY_2018
+-d:UNITY_INCLUDE_TESTS
+-d:ENABLE_AUDIO
+-d:ENABLE_CACHING
+-d:ENABLE_CLOTH
+-d:ENABLE_DUCK_TYPING
+-d:ENABLE_MICROPHONE
+-d:ENABLE_MULTIPLE_DISPLAYS
+-d:ENABLE_PHYSICS
+-d:ENABLE_SPRITES
+-d:ENABLE_GRID
+-d:ENABLE_TILEMAP
+-d:ENABLE_TERRAIN
+-d:ENABLE_TEXTURE_STREAMING
+-d:ENABLE_DIRECTOR
+-d:ENABLE_UNET
+-d:ENABLE_LZMA
+-d:ENABLE_UNITYEVENTS
+-d:ENABLE_WEBCAM
+-d:ENABLE_WWW
+-d:ENABLE_CLOUD_SERVICES_COLLAB
+-d:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-d:ENABLE_CLOUD_SERVICES_ADS
+-d:ENABLE_CLOUD_HUB
+-d:ENABLE_CLOUD_PROJECT_ID
+-d:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-d:ENABLE_CLOUD_SERVICES_UNET
+-d:ENABLE_CLOUD_SERVICES_BUILD
+-d:ENABLE_CLOUD_LICENSE
+-d:ENABLE_EDITOR_HUB
+-d:ENABLE_EDITOR_HUB_LICENSE
+-d:ENABLE_WEBSOCKET_CLIENT
+-d:ENABLE_DIRECTOR_AUDIO
+-d:ENABLE_DIRECTOR_TEXTURE
+-d:ENABLE_TIMELINE
+-d:ENABLE_EDITOR_METRICS
+-d:ENABLE_EDITOR_METRICS_CACHING
+-d:ENABLE_MANAGED_JOBS
+-d:ENABLE_MANAGED_TRANSFORM_JOBS
+-d:ENABLE_MANAGED_ANIMATION_JOBS
+-d:INCLUDE_DYNAMIC_GI
+-d:INCLUDE_GI
+-d:ENABLE_MONO_BDWGC
+-d:PLATFORM_SUPPORTS_MONO
+-d:RENDER_SOFTWARE_CURSOR
+-d:INCLUDE_PUBNUB
+-d:ENABLE_VIDEO
+-d:ENABLE_CUSTOM_RENDER_TEXTURE
+-d:ENABLE_LOCALIZATION
+-d:PLATFORM_STANDALONE_WIN
+-d:PLATFORM_STANDALONE
+-d:UNITY_STANDALONE_WIN
+-d:UNITY_STANDALONE
+-d:ENABLE_SUBSTANCE
+-d:ENABLE_RUNTIME_GI
+-d:ENABLE_MOVIES
+-d:ENABLE_NETWORK
+-d:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-d:ENABLE_UNITYWEBREQUEST
+-d:ENABLE_CLOUD_SERVICES
+-d:ENABLE_CLOUD_SERVICES_ANALYTICS
+-d:ENABLE_CLOUD_SERVICES_PURCHASING
+-d:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-d:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+-d:ENABLE_EVENT_QUEUE
+-d:ENABLE_CLUSTER_SYNC
+-d:ENABLE_CLUSTERINPUT
+-d:ENABLE_VR
+-d:ENABLE_AR
+-d:ENABLE_WEBSOCKET_HOST
+-d:ENABLE_MONO
+-d:NET_4_6
+-d:ENABLE_PROFILER
+-d:DEBUG
+-d:TRACE
+-d:UNITY_ASSERTIONS
+-d:UNITY_EDITOR
+-d:UNITY_EDITOR_64
+-d:UNITY_EDITOR_WIN
+-d:ENABLE_UNITY_COLLECTIONS_CHECKS
+-d:ENABLE_BURST_AOT
+-d:UNITY_TEAM_LICENSE
+-d:UNITY_POST_PROCESSING_STACK_V2
+-d:CSHARP_7_OR_LATER
+-d:CSHARP_7_3_OR_NEWER
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Compiler/VFXCodeGenerator.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Compiler/VFXExpressionGraph.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Compiler/VFXExpressionMapper.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Compiler/VFXGraphCompiledData.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Compiler/VFXShaderWriter.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Compiler/VFXUniformMapper.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Controls/Element3D.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Controls/VFXColorField.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Controls/VFXControl.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Controls/VFXEnumField.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Controls/VFXFlipBookField.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Controls/VFXLabeledField.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Controls/VFXMatrix4x4Field.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Controls/VFXObjectField.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Controls/VFXReorderableList.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Controls/VFXSliderField.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Controls/VFXStringField.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Controls/VFXStringFieldProvider.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Controls/VFXStringFieldPushButton.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Controls/VFXVector2Field.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Controls/VFXVector3Field.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Controls/VFXVector4Field.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Core/VFXConverter.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Core/VFXLibrary.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Core/VFXSerializer.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Core/VFXSettingAttribute.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Data/VFXData.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Data/VFXDataMesh.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Data/VFXDataParticle.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Debug/DotGraphOutput.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Expressions/VFXAttributeExpression.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Expressions/VFXBuiltInExpression.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Expressions/VFXExpressionAbstract.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Expressions/VFXExpressionAbstractBoolOperation.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Expressions/VFXExpressionAbstractFloatOperation.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Expressions/VFXExpressionAbstractNumericOperation.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Expressions/VFXExpressionAbstractUintOperation.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Expressions/VFXExpressionAbstractValues.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Expressions/VFXExpressionBakeCurve.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Expressions/VFXExpressionBakeGradient.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Expressions/VFXExpressionCamera.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Expressions/VFXExpressionCast.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Expressions/VFXExpressionColor.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Expressions/VFXExpressionCombine.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Expressions/VFXExpressionContext.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Expressions/VFXExpressionExtractComponent.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Expressions/VFXExpressionFlow.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Expressions/VFXExpressionMath.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Expressions/VFXExpressionNoise.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Expressions/VFXExpressionRandom.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Expressions/VFXExpressionSampleCurve.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Expressions/VFXExpressionSampleGradient.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Expressions/VFXExpressionSampleTexture2D.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Expressions/VFXExpressionSampleTexture2DArray.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Expressions/VFXExpressionSampleTexture3D.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Expressions/VFXExpressionSampleTextureCube.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Expressions/VFXExpressionSampleTextureCubeArray.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Expressions/VFXExpressionTextureValues.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Expressions/VFXExpressionTransform.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/FilterPopup/VFXBlockProvider.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/FilterPopup/VFXFilterWindow.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Gizmo/VFXGizmo.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Gizmo/VFXGizmoUtility.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Blackboard/VFXBlackboard.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Blackboard/VFXBlackboardCategory.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Blackboard/VFXBlackboardField.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Blackboard/VFXBlackboardPropertyView.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Blackboard/VFXBlackboardRow.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Controllers/Controller.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Controllers/IControlledElement.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Elements/3D/Preview3D.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Elements/3D/Rotate3DManipulator.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Elements/Controllers/VFXBlockController.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Elements/Controllers/VFXContextController.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Elements/Controllers/VFXContextDataAnchorController.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Elements/Controllers/VFXDataAnchorController.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Elements/Controllers/VFXDataEdgeController.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Elements/Controllers/VFXFlowAnchorController.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Elements/Controllers/VFXFlowEdgeController.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Elements/Controllers/VFXGroupNodeController.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Elements/Controllers/VFXNodeController.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Elements/Controllers/VFXOperatorAnchorController.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Elements/Controllers/VFXOperatorController.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Elements/Controllers/VFXParameterController.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Elements/Controllers/VFXParameterNodeController.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Elements/Controllers/VFXSettingController.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Elements/Controllers/VFXSlotContainerController.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Elements/StickyNote.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Elements/VFXBlockDataAnchor.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Elements/VFXBlockUI.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Elements/VFXContextUI.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Elements/VFXDataAnchor.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Elements/VFXDataAnchorExposedProperties.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Elements/VFXDataEdge.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Elements/VFXEditableDataAnchor.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Elements/VFXElement.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Elements/VFXFlowAnchor.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Elements/VFXFlowEdge.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Elements/VFXGroupNode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Elements/VFXMultiOperatorEdit.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Elements/VFXNodeUI.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Elements/VFXOperatorUI.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Elements/VFXOutputDataAnchor.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Elements/VFXParameterUI.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Elements/VFXStickyNote.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/VFXComponentBoard.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/VFXTypeDefinition.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/VFXViewPreference.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/VFXViewWindow.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Views/Controller/VFXGraphUndoCursor.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Views/Controller/VFXGraphValidation.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Views/Controller/VFXSystemController.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Views/Controller/VFXViewController.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Views/Controller/VFXViewControllerExpressions.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Views/Controller/VFXViewControllerUndo.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Views/Properties/BoolPropertyRM.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Views/Properties/ColorPropertyRM.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Views/Properties/CurvePropertyRM.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Views/Properties/GradientPropertyRM.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Views/Properties/NumericPropertiesRM.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Views/Properties/ObjectPropertyRM.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Views/Properties/PropertyRM.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Views/Properties/SimplePropertiesRM.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Views/Properties/SpaceablePropertiesRM.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Views/Properties/StringPropertyRM.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Views/Properties/Vector3PropertyRM.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Views/VFXCopy.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Views/VFXCopyPaste.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Views/VFXCopyPasteCommon.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Views/VFXNodeProvider.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Views/VFXPaste.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/GraphView/Views/VFXView.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Inspector/AdvancedVisualEffectEditor.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Inspector/GizmoController.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Inspector/VFXAssetEditor.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Inspector/VFXBlockEditor.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Inspector/VFXContextEditor.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Inspector/VFXManagerEditor.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Inspector/VFXParameterEditor.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Inspector/VFXSlotContainerEditor.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Inspector/VisualEffectEditor.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Manipulators/DownClickable.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Manipulators/SuperCollapser.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Attribute/AttributeFromCurve.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Attribute/AttributeFromMap.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Attribute/AttributeMassFromVolume.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Attribute/SetCustomAttribute.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Collision/CollisionAABox.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Collision/CollisionBase.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Collision/CollisionCylinder.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Collision/CollisionDepth.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Collision/CollisionPlane.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Collision/CollisionSDF.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Collision/CollisionSphere.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Color/ColorOverLife.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/FlipBook/FlipbookPlay.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Forces/ConformToSDF.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Forces/ConformToSphere.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Forces/Drag.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Forces/Force.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Forces/ForceHelper.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Forces/Gravity.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Forces/Turbulence.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Forces/VectorFieldForce.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/GPUEvent/GPUEventAlways.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/GPUEvent/GPUEventOnDie.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Kill/KillAABox.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Kill/KillSphere.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Orientation/ConnectTarget.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Orientation/Orient.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Output/CameraFade.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Output/SubpixelAA.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Position/PositionAABox.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Position/PositionBase.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Position/PositionCircle.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Position/PositionCone.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Position/PositionLine.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Position/PositionSequential.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Position/PositionSphere.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Position/PositionTorus.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Position/ProjectOnDepth.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Position/TileWarp.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/SetAttribute.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Size/ScreenSpaceSize.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Spawn/VFXAbstractSpawner.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Spawn/VFXSpawnerBurst.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Spawn/VFXSpawnerBurstOld.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Spawn/VFXSpawnerConstantRate.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Spawn/VFXSpawnerCustomWrapper.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Spawn/VFXSpawnerPeriodicBurst.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Spawn/VFXSpawnerSetAttribute.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Spawn/VFXSpawnerVariableRate.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Test/AllType.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Test/InitBlockTest.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Test/OutputBlockTest.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Test/UpdateBlockTest.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Update/Age.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Update/AngularEulerIntegration.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Update/EulerIntegration.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Update/Reap.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Velocity/VelocityBase.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Velocity/VelocityDirection.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Velocity/VelocityRandomize.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Velocity/VelocitySpeed.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Velocity/VelocitySpherical.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/Velocity/VelocityTangent.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/Implementations/VFXBlockUtility.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Blocks/VFXBlock.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Contexts/Implementations/HDRP/VFXAbstractParticleHDRPLitOutput.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Contexts/Implementations/HDRP/VFXLitCubeOutput.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Contexts/Implementations/HDRP/VFXLitMeshOutput.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Contexts/Implementations/HDRP/VFXLitQuadOutput.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Contexts/Implementations/HDRP/VFXLitSphereOutput.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Contexts/Implementations/VFXAbstractParticleOutput.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Contexts/Implementations/VFXBasicCubeOutput.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Contexts/Implementations/VFXBasicEvent.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Contexts/Implementations/VFXBasicGPUEvent.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Contexts/Implementations/VFXBasicInitialize.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Contexts/Implementations/VFXBasicSpawner.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Contexts/Implementations/VFXBasicUpdate.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Contexts/Implementations/VFXCubeTestOutput.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Contexts/Implementations/VFXDecalOutput.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Contexts/Implementations/VFXLineOutput.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Contexts/Implementations/VFXMeshOutput.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Contexts/Implementations/VFXPointOutput.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Contexts/Implementations/VFXQuadOutput.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Contexts/Implementations/VFXStaticMeshOutput.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Contexts/IVFXSubRenderer.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Contexts/VFXCameraSort.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Contexts/VFXContext.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/AABoxVolume.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Absolute.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Add.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/AgeOverLifetime.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/AppendVector.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/BitwiseAnd.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/BitwiseComplement.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/BitwiseLeftShift.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/BitwiseOr.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/BitwiseRightShift.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/BitwiseXor.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Branch.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Ceiling.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/ChangeSpace.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/CircleArea.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Clamp.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/ColorLuma.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Condition.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/ConeVolume.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Cosine.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/CrossProduct.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/CrossProductDeprecated.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/CurlNoise.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/CylinderVolume.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Deprecated/CellularNoise.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Deprecated/NoiseBaseOld.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Deprecated/PerlinNoise.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Deprecated/SimplexNoise.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Deprecated/ValueNoise.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Discretize.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Distance.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/DistanceToLine.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/DistanceToPlane.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/DistanceToSphere.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Divide.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/DotProduct.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Epsilon.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Floor.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Fractional.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/GetCustomAttribute.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/HSVtoRGB.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Length.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Lerp.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/LogicalAnd.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/LogicalNand.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/LogicalNor.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/LogicalNot.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/LogicalOr.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/LookAt.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/MainCamera.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Maximum.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Minimum.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Modulo.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Multiply.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Negate.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Noise.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/NoiseBase.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Normalize.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/OneMinus.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/OrientedBoxVolume.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/PeriodicTotalTime.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/PerParticleTotalTime.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Pi.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/PolarToRectangular.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Power.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/ProbabilitySampling.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Random.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Reciprocal.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/RectangularToPolar.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/RectangularToSpherical.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Remap.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/RemapToNegOnePosOne.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/RemapToZeroOne.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/RGBtoHSV.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Rotate2D.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Rotate3D.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Round.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/SampleBezier.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/SampleCurve.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/SampleGradient.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/SampleTexture2D.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/SampleTexture2DArray.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/SampleTexture3D.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/SampleTextureCube.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/SampleTextureCubeArray.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Saturate.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/SawtoothWave.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Sequential3D.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/SequentialCircle.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/SequentialLine.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Sign.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Sine.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/SineWave.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Smoothstep.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/SphereVolume.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/SphericalToRectangular.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/SquaredDistance.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/SquaredLength.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/SquareRoot.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/SquareWave.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Step.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Subtract.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Switch.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Swizzle.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/Tangent.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/TorusVolume.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/TransformDirection.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/TransformMatrix.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/TransformPosition.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/TransformVector.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/TriangleWave.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/Implementations/VoroNoise2D.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/VFXAbstractOperatorNew.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/VFXOperator.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Operators/VFXOperatorUtility.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Parameters/VFXAttributeParameter.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Parameters/VFXBuiltInParameter.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Parameters/VFXCurrentAttributeParameter.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Parameters/VFXInlineOperator.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Parameters/VFXParameter.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Parameters/VFXSourceAttributeParameter.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Slots/Implementations/VFXSlotAnimationCurve.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Slots/Implementations/VFXSlotBool.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Slots/Implementations/VFXSlotColor.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Slots/Implementations/VFXSlotDirection.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Slots/Implementations/VFXSlotEncapsulated.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Slots/Implementations/VFXSlotFlipBook.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Slots/Implementations/VFXSlotFloat.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Slots/Implementations/VFXSlotFloat2.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Slots/Implementations/VFXSlotFloat3.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Slots/Implementations/VFXSlotFloat4.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Slots/Implementations/VFXSlotGradient.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Slots/Implementations/VFXSlotInt.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Slots/Implementations/VFXSlotMatrix4x4.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Slots/Implementations/VFXSlotMesh.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Slots/Implementations/VFXSlotOrientedBox.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Slots/Implementations/VFXSlotPosition.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Slots/Implementations/VFXSlotTexture2D.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Slots/Implementations/VFXSlotTexture2DArray.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Slots/Implementations/VFXSlotTexture3D.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Slots/Implementations/VFXSlotTextureCube.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Slots/Implementations/VFXSlotTextureCubeArray.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Slots/Implementations/VFXSlotTransform.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Slots/Implementations/VFXSlotUint.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Slots/Implementations/VFXSlotVector.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/Slots/VFXSlot.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/VFXGraph.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/VFXModel.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/VFXParameterInfo.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/VFXSlotContainerModel.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Models/VFXUI.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/PackageInfo.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Types/VFXBoxGizmos.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Types/VFXCircleGizmos.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Types/VFXConeGizmos.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Types/VFXCylinderGizmo.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Types/VFXLineGizmos.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Types/VFXPlaneGizmos.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Types/VFXProperty.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Types/VFXPropertyAttribute.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Types/VFXSphereGizmos.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Types/VFXTorusGizmos.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Types/VFXTransformGizmos.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Types/VFXTypeExtension.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Types/VFXTypes.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Types/VFXTypesGizmos.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Types/VFXTypeUtility.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Utilities/DotGraph/DotAttribute.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Utilities/DotGraph/DotElement.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Utilities/DotGraph/DotGraph.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Utilities/ParameterBinding/VFXParameterBinderEditor.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Utilities/pCache/BakeTool/PointCacheBakeTool.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Utilities/pCache/BakeTool/PointCacheBakeTool.Mesh.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Utilities/pCache/BakeTool/PointCacheBakeTool.Texture.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Utilities/pCache/Importer/PointCacheImporter.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Utilities/pCache/Operator/VFXOperatorPointCache.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Utilities/pCache/PCache.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Utilities/pCache/PointCache.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Utilities/pCache/PointCacheAsset.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Utilities/VectorFieldGenerator.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Utilities/VectorFieldImporter/Editor/VectorFieldImporter.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Utilities/VectorFieldImporter/Editor/VectorFieldImporterEditor.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Utilities/VisualEffectActivationBehaviourInspector.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Utils/ProjectUtils.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Utils/VFXContextBorder.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Utils/VFXDebugWindow.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Utils/VFXResources.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/Utils/VFXSystemBorder.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/VFXAssetEditorUtility.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/VFXMigration.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.visualeffectgraph@4.6.0-preview/Editor/VisualElementExtensions.cs
+-v:0

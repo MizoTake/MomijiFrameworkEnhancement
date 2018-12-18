@@ -1,0 +1,506 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:7
+-out:F:/UnityProject/MomijiFrameworkEnhancement/Temp/Unity.RenderPipelines.HighDefinition.Runtime.dll
+-nostdlib
+-unsafe
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.BaselibModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TLSModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TextCoreModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TimelineModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UNETModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.VFXModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.VRModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEditor.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/Unity.Locator.dll"
+-r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
+-r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
+-r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll"
+-r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll"
+-r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll"
+-r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
+-r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll"
+-r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
+-r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
+-r:"D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEditor.Graphs.dll"
+-r:"D:/Program Files/2018.3.0f2/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll"
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Demigiant/DOTween/DOTween.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Demigiant/DOTween/DOTween43.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Demigiant/DOTween/DOTween46.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Demigiant/DOTween/DOTween50.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Demigiant/DOTween/Editor/DOTweenEditor.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Mdb.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Pdb.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Rocks.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/Zenject/Source/Usage/Zenject-usage.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.ads@2.3.1/Editor/UnityEditor.Advertisements.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Editor/Core/ShaderGenerator/ICSharpCode.NRefactory.dll
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Core.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Runtime.Serialization.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Xml.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Xml.Linq.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Numerics.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Numerics.Vectors.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Net.Http.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Microsoft.CSharp.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Data.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\Microsoft.Win32.Primitives.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\netstandard.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.AppContext.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.Concurrent.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.NonGeneric.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.Specialized.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.Annotations.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.EventBasedAsync.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.Primitives.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.TypeConverter.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Console.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Data.Common.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Contracts.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Debug.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.FileVersionInfo.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Process.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.StackTrace.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.TextWriterTraceListener.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Tools.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.TraceSource.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Drawing.Primitives.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Dynamic.Runtime.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.Calendars.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.Extensions.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.Compression.ZipFile.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.DriveInfo.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.Primitives.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.Watcher.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.IsolatedStorage.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.MemoryMappedFiles.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.Pipes.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.UnmanagedMemoryStream.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Expressions.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Parallel.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Queryable.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Http.Rtc.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.NameResolution.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.NetworkInformation.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Ping.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Primitives.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Requests.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Security.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Sockets.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebHeaderCollection.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebSockets.Client.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebSockets.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ObjectModel.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.ILGeneration.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.Lightweight.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Extensions.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Primitives.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.Reader.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.ResourceManager.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.Writer.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.CompilerServices.VisualC.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Extensions.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Handles.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.RuntimeInformation.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Numerics.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Formatters.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Json.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Primitives.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Xml.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Claims.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Algorithms.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Csp.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Encoding.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Primitives.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.X509Certificates.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Principal.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.SecureString.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Duplex.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Http.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.NetTcp.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Primitives.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Security.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.Encoding.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.Encoding.Extensions.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.RegularExpressions.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Overlapped.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Tasks.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Tasks.Parallel.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Thread.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.ThreadPool.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Timer.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ValueTuple.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.ReaderWriter.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XDocument.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XmlDocument.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XmlSerializer.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.XDocument.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\UnityScript.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\UnityScript.Lang.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\Boo.Lang.dll"
+-d:UNITY_5_3_OR_NEWER
+-d:UNITY_5_4_OR_NEWER
+-d:UNITY_5_5_OR_NEWER
+-d:UNITY_5_6_OR_NEWER
+-d:UNITY_2017_1_OR_NEWER
+-d:UNITY_2017_2_OR_NEWER
+-d:UNITY_2017_3_OR_NEWER
+-d:UNITY_2017_4_OR_NEWER
+-d:UNITY_2018_1_OR_NEWER
+-d:UNITY_2018_2_OR_NEWER
+-d:UNITY_2018_3_OR_NEWER
+-d:UNITY_2018_3_0
+-d:UNITY_2018_3
+-d:UNITY_2018
+-d:UNITY_INCLUDE_TESTS
+-d:ENABLE_AUDIO
+-d:ENABLE_CACHING
+-d:ENABLE_CLOTH
+-d:ENABLE_DUCK_TYPING
+-d:ENABLE_MICROPHONE
+-d:ENABLE_MULTIPLE_DISPLAYS
+-d:ENABLE_PHYSICS
+-d:ENABLE_SPRITES
+-d:ENABLE_GRID
+-d:ENABLE_TILEMAP
+-d:ENABLE_TERRAIN
+-d:ENABLE_TEXTURE_STREAMING
+-d:ENABLE_DIRECTOR
+-d:ENABLE_UNET
+-d:ENABLE_LZMA
+-d:ENABLE_UNITYEVENTS
+-d:ENABLE_WEBCAM
+-d:ENABLE_WWW
+-d:ENABLE_CLOUD_SERVICES_COLLAB
+-d:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-d:ENABLE_CLOUD_SERVICES_ADS
+-d:ENABLE_CLOUD_HUB
+-d:ENABLE_CLOUD_PROJECT_ID
+-d:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-d:ENABLE_CLOUD_SERVICES_UNET
+-d:ENABLE_CLOUD_SERVICES_BUILD
+-d:ENABLE_CLOUD_LICENSE
+-d:ENABLE_EDITOR_HUB
+-d:ENABLE_EDITOR_HUB_LICENSE
+-d:ENABLE_WEBSOCKET_CLIENT
+-d:ENABLE_DIRECTOR_AUDIO
+-d:ENABLE_DIRECTOR_TEXTURE
+-d:ENABLE_TIMELINE
+-d:ENABLE_EDITOR_METRICS
+-d:ENABLE_EDITOR_METRICS_CACHING
+-d:ENABLE_MANAGED_JOBS
+-d:ENABLE_MANAGED_TRANSFORM_JOBS
+-d:ENABLE_MANAGED_ANIMATION_JOBS
+-d:INCLUDE_DYNAMIC_GI
+-d:INCLUDE_GI
+-d:ENABLE_MONO_BDWGC
+-d:PLATFORM_SUPPORTS_MONO
+-d:RENDER_SOFTWARE_CURSOR
+-d:INCLUDE_PUBNUB
+-d:ENABLE_VIDEO
+-d:ENABLE_CUSTOM_RENDER_TEXTURE
+-d:ENABLE_LOCALIZATION
+-d:PLATFORM_STANDALONE_WIN
+-d:PLATFORM_STANDALONE
+-d:UNITY_STANDALONE_WIN
+-d:UNITY_STANDALONE
+-d:ENABLE_SUBSTANCE
+-d:ENABLE_RUNTIME_GI
+-d:ENABLE_MOVIES
+-d:ENABLE_NETWORK
+-d:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-d:ENABLE_UNITYWEBREQUEST
+-d:ENABLE_CLOUD_SERVICES
+-d:ENABLE_CLOUD_SERVICES_ANALYTICS
+-d:ENABLE_CLOUD_SERVICES_PURCHASING
+-d:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-d:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+-d:ENABLE_EVENT_QUEUE
+-d:ENABLE_CLUSTER_SYNC
+-d:ENABLE_CLUSTERINPUT
+-d:ENABLE_VR
+-d:ENABLE_AR
+-d:ENABLE_WEBSOCKET_HOST
+-d:ENABLE_MONO
+-d:NET_4_6
+-d:ENABLE_PROFILER
+-d:DEBUG
+-d:TRACE
+-d:UNITY_ASSERTIONS
+-d:UNITY_EDITOR
+-d:UNITY_EDITOR_64
+-d:UNITY_EDITOR_WIN
+-d:ENABLE_UNITY_COLLECTIONS_CHECKS
+-d:ENABLE_BURST_AOT
+-d:UNITY_TEAM_LICENSE
+-d:UNITY_POST_PROCESSING_STACK_V2
+-d:CSHARP_7_OR_LATER
+-d:CSHARP_7_3_OR_NEWER
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/AssemblyInfo.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Camera/HDRayTracingGraph.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Camera/CameraSwitcher.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Camera/FreeCamera.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Common/ComponentSingleton.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Common/ObservableList.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Common/RectInt.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Common/SerializedDictionary.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/CoreResources/GPUCopy.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Debugging/DebugManager.Actions.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Debugging/DebugManager.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Debugging/DebugShapes.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Debugging/DebugUI.Containers.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Debugging/DebugUI.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Debugging/DebugUI.Fields.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Debugging/DebugUI.Panel.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Debugging/DebugUpdater.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Debugging/MousePositionDebug.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Debugging/Prefabs/Scripts/DebugUIHandlerButton.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Debugging/Prefabs/Scripts/DebugUIHandlerCanvas.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Debugging/Prefabs/Scripts/DebugUIHandlerColor.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Debugging/Prefabs/Scripts/DebugUIHandlerContainer.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Debugging/Prefabs/Scripts/DebugUIHandlerEnumField.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Debugging/Prefabs/Scripts/DebugUIHandlerFloatField.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Debugging/Prefabs/Scripts/DebugUIHandlerFoldout.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Debugging/Prefabs/Scripts/DebugUIHandlerGroup.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Debugging/Prefabs/Scripts/DebugUIHandlerHBox.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Debugging/Prefabs/Scripts/DebugUIHandlerIndirectFloatField.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Debugging/Prefabs/Scripts/DebugUIHandlerIntField.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Debugging/Prefabs/Scripts/DebugUIHandlerPanel.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Debugging/Prefabs/Scripts/DebugUIHandlerPersistentCanvas.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Debugging/Prefabs/Scripts/DebugUIHandlerToggle.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Debugging/Prefabs/Scripts/DebugUIHandlerUIntField.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Debugging/Prefabs/Scripts/DebugUIHandlerValue.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Debugging/Prefabs/Scripts/DebugUIHandlerVBox.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Debugging/Prefabs/Scripts/DebugUIHandlerVector2.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Debugging/Prefabs/Scripts/DebugUIHandlerVector3.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Debugging/Prefabs/Scripts/DebugUIHandlerVector4.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Debugging/Prefabs/Scripts/DebugUIHandlerWidget.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Debugging/Prefabs/Scripts/UIFoldout.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Inputs/InputRegistering.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Migration/IVersionable.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Migration/MigrationDescription.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Migration/MigrationStep.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Script/Profiler/MiniProfiler.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/ShaderGenerator/ShaderGeneratorAttributes.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Textures/BufferedRTHandleSystem.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Textures/DepthBits.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Textures/EncodeBC6H.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Textures/RTCategory.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Textures/RTHandles.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Textures/RTHandleSystem.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Textures/RTHandleSystem.RTHandle.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Textures/TextureCache.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Textures/TextureCache2D.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Textures/TextureCacheCubemap.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Textures/TextureSettings.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Utilities/DelegateUtility.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Utilities/GeometryUtils.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Utilities/SceneRenderPipeline.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Core/Utilities/TileLayoutUtils.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Debug/ColorPickerDebug.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Debug/DebugDisplay.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Debug/DebugLightVolumes.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Debug/DecalsDebug.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Debug/FalseColorDebug.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Debug/LightingDebug.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Debug/MaterialDebug.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Debug/MipMapDebug.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/AtmosphericScattering/AtmosphericScattering.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/AtmosphericScattering/ExponentialFog.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/AtmosphericScattering/LinearFog.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/AtmosphericScattering/ShaderVariablesAtmosphericScattering.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/AtmosphericScattering/VolumetricFog.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/GlobalIlluminationUtils.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/IndirectLightingController.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/Light/HDAdditionalLightData.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/Light/HDAdditionalShadowData.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/LightDefinition.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/LightLoop/GlobalLightLoopSettings.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/LightLoop/LightLoop.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/LightLoop/LightLoopSettings.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/LightLoop/ShaderVariablesLightLoop.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/LightUtils.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/Reflection/HDAdditionalReflectionData.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/Reflection/HDAdditionalReflectionData.Migration.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/Reflection/HDProbe.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/Reflection/PlanarReflectionProbe.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/Reflection/PlanarReflectionProbe.Migration.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/Reflection/PlanarReflectionProbeCache.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/Reflection/ReflectionProbeCache.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/Reflection/ReflectionProbeCullResults.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/Reflection/ReflectionProbeType.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/Reflection/ReflectionSystem.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/Reflection/ReflectionSystemInternal.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/Reflection/ReflectionSystemParameters.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/Reflection/ReflectionSystemSceneDictionary.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/Reflection/Volume/InfluenceVolume.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/Reflection/Volume/InfluenceVolume.Migration.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/Reflection/Volume/ProxyVolume.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/Reflection/Volume/ReflectionProxyVolumeComponent.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/Reflection/Volume/ShapeType.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/ScreenSpaceLighting/ScreenSpaceReflection.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/ScreenSpaceLighting/ScreenSpaceRefraction.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/ScreenSpaceLighting/ShaderVariablesScreenSpaceLighting.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/Shadow/AdditionalShadowData.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/Shadow/ContactShadows.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/Shadow/HDShadowAtlas.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/Shadow/HDShadowManager.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/Shadow/HDShadowSettings.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/Shadow/HDShadowUtils.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/Shadow/MicroShadowing.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/SphericalHarmonics.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/VolumetricLighting/DensityVolume.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/VolumetricLighting/DensityVolumeManager.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/VolumetricLighting/Texture3DAtlas.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/VolumetricLighting/VolumetricLighting.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Lighting/VolumetricLighting/VolumetricLightingController.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Material/AxF/AxF.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Material/AxF/AxFLTCAreaLight/LtcData.GGX2.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Material/Builtin/BuiltinData.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Material/Decal/DBufferManager.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Material/Decal/Decal.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Material/Decal/DecalProjectorComponent.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Material/Decal/DecalSystem.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Material/Decal/GlobalDecalSettings.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Material/Decal/ShaderVariablesDecal.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Material/DiffusionProfile/DiffusionProfileSettings.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Material/Fabric/Fabric.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Material/Fabric/IBLFilterCharlie.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Material/GBufferManager.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Material/GGXConvolution/GGXConvolution.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Material/GGXConvolution/IBLFilterGGX.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Material/IBLFilterBSDF.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Material/Lit/Lit.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Material/LTCAreaLight/LTCAreaLight.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Material/LTCAreaLight/LtcData.DisneyDiffuse.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Material/LTCAreaLight/LtcData.GGX.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Material/PreIntegratedFGD/PreIntegratedFGD.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Material/RenderPipelineMaterial.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Material/SharedRTManager.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Material/SphericalCapPivot/PivotData.GGX.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Material/SphericalCapPivot/SPTDistribution.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Material/StackLit/StackLit.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Material/SubsurfaceScattering/ShaderVariablesSubsurfaceScattering.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Material/SubsurfaceScattering/SubsurfaceScatteringManager.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Material/Unlit/Unlit.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/RenderPipeline/Camera/HDAdditionalCameraData.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/RenderPipeline/Camera/HDCamera.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/RenderPipeline/Camera/HDCameraFrameHistoryType.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/RenderPipeline/CullingGroupManager.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/RenderPipeline/HDCustomSamplerId.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/RenderPipeline/HDGPUAsyncTask.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/RenderPipeline/HDRaytracingManager.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/RenderPipeline/HDRenderPipeline.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/RenderPipeline/HDRenderPipelineAsset.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/RenderPipeline/HDRenderPipelineEditorResources.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/RenderPipeline/HDRenderPipelineEditorResources.Migration.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/RenderPipeline/HDRenderQueue.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/RenderPipeline/HDStringConstants.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/RenderPipeline/MRTBufferManager.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/RenderPipeline/RenderPass/MipGenerator.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/RenderPipeline/RenderPipelineResources.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/RenderPipeline/RenderPipelineResources.Migration.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/RenderPipeline/SceneViewDrawMode.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/RenderPipeline/Settings/CaptureSettings.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/RenderPipeline/Settings/FrameSettings.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/RenderPipeline/Settings/RenderPipelineSettings.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/RenderPipeline/ShaderPass/ShaderPass.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/RenderPipeline/Utility/HDUtils.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/RenderPipeline/Utility/Texture2DAtlas.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/ShaderLibrary/ShaderConfig.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Sky/BakingSky.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Sky/GradientSky/GradientSky.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Sky/GradientSky/GradientSkyRenderer.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Sky/HDRISky/HDRISky.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Sky/HDRISky/HDRISkyRenderer.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Sky/ProceduralSky/ProceduralSky.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Sky/ProceduralSky/ProceduralSkyRenderer.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Sky/SkyManager.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Sky/SkyRenderer.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Sky/SkyRenderingContext.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Sky/SkySettings.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Sky/SkyUpdateContext.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Sky/VisualEnvironment.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.render-pipelines.high-definition@4.6.0-preview/Runtime/Wind/ShaderWindSettings.cs
+-v:0
