@@ -67,30 +67,30 @@
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll"
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEditor.dll"
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/Unity.Locator.dll"
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Zenject-Editor.dll
 -r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/UniRx.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll
 -r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
 -r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.Burst.dll
 -r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Zenject-ReflectionBaking-Editor.dll
 -r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
 -r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/UniRx.Async.dll
 -r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/UniRx.Async.Editor.dll
--r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.Burst.Editor.dll
--r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.TextMeshPro.dll
--r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
--r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Zenject-Editor.dll
--r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Zenject-ReflectionBaking-Editor.dll
--r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Zenject-PoolMonitor-Editor.dll
--r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Zenject.dll
--r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
 -r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
--r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
--r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
--r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.VisualEffectGraph.Editor.dll
 -r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.Burst.Editor.dll
 -r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll
 -r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
--r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll
--r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.VisualEffectGraph.Editor.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Zenject-PoolMonitor-Editor.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Zenject.dll
 -r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
 -r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
 -r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
@@ -340,12 +340,12 @@
 -i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/MomijiFramework/Scripts/APIModel/Base/DeleteRequestable.cs
 -i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/MomijiFramework/Scripts/APIModel/Base/ErrorRequestable.cs
 -i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/MomijiFramework/Scripts/APIModel/Base/GetRequestable.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/MomijiFramework/Scripts/APIModel/Base/IParameterizable.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/MomijiFramework/Scripts/APIModel/Base/IResponsible.cs
 -i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/MomijiFramework/Scripts/APIModel/Base/MockRequestable.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/MomijiFramework/Scripts/APIModel/Base/Parameterizable.cs
 -i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/MomijiFramework/Scripts/APIModel/Base/PostRequestable.cs
 -i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/MomijiFramework/Scripts/APIModel/Base/PutRequestable.cs
 -i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/MomijiFramework/Scripts/APIModel/Base/Requestable.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/MomijiFramework/Scripts/APIModel/Base/Responsible.cs
 -i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/MomijiFramework/Scripts/Behaviour/NextScene.cs
 -i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/MomijiFramework/Scripts/Controller/RxGesture.cs
 -i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/MomijiFramework/Scripts/Data/SoundParameter.cs
