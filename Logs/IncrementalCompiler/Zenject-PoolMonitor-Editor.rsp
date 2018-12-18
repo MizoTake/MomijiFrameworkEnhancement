@@ -2,9 +2,11 @@
 -target:library
 -nowarn:0169
 -langversion:7
--out:F:/UnityProject/MomijiFrameworkEnhancement/Temp/Unity.TextMeshPro.dll
+-out:F:/UnityProject/MomijiFrameworkEnhancement/Temp/Zenject-PoolMonitor-Editor.dll
 -nostdlib
 -unsafe
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Zenject.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Zenject-Editor.dll
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
@@ -35,6 +37,7 @@
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll"
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.StreamingModule.dll"
@@ -314,49 +317,8 @@
 -d:UNITY_POST_PROCESSING_STACK_V2
 -d:CSHARP_7_OR_LATER
 -d:CSHARP_7_3_OR_NEWER
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/FastAction.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/MaterialReferenceManager.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/PackageResourceImporterWindow.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TextContainer.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TextMeshPro.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TextMeshProUGUI.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Asset.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_ColorGradient.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Compatibility.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_CoroutineTween.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_DefaultControls.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Dropdown.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_FontAsset.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_InputField.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_InputValidator.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_LineInfo.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_ListPool.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_MaterialManager.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_MeshInfo.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_ObjectPool.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_ScrollbarEventHandler.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_SelectionCaret.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Settings.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Sprite.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_SpriteAnimator.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_SpriteAsset.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_SpriteAssetImportFormats.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Style.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_StyleSheet.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_SubMesh.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_SubMeshUI.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_Text.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_TextElement.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_TextInfo.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_TextUtilities.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_UpdateManager.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_UpdateRegistery.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMP_XmlTagStack.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_EventManager.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_ExtensionMethods.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_FontUtilities.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_MeshUtilities.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_Private.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_ShaderUtilities.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TMPro_UGUI_Private.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/Zenject/OptionalExtras/MemoryPoolMonitor/Editor/DebugWindow/InPlaceStableSort.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/Zenject/OptionalExtras/MemoryPoolMonitor/Editor/DebugWindow/MpmView.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/Zenject/OptionalExtras/MemoryPoolMonitor/Editor/DebugWindow/MpmWindow.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Plugins/Zenject/OptionalExtras/MemoryPoolMonitor/Editor/MpmSettingsInstaller.cs
 -v:0
