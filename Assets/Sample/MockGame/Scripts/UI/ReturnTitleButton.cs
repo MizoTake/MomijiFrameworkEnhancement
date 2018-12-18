@@ -1,10 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
+using Momiji;
+using UniRx;
 using UnityEngine;
 using UnityEngine.UI;
-using DG.Tweening;
-using UniRx;
-using Momiji;
 
 public class ReturnTitleButton : MonoBehaviour
 {
@@ -13,31 +13,31 @@ public class ReturnTitleButton : MonoBehaviour
     private Text _text;
 
     // Use this for initialization
-    void Start()
+    void Start ()
     {
-        var button = GetComponent<Button>();
-        button.onClick.AddListener(() =>
+        var button = GetComponent<Button> ();
+        button.onClick.AddListener (() =>
         {
-            TransSceneManager.ReloadScene();
+            // TransSceneManager.ReloadScene();
         });
 
-        var image = GetComponent<Image>();
+        var image = GetComponent<Image> ();
         PlayGameSequence.State
-            .Where(_ => _ == GameState.Game)
-            .Subscribe(_ =>
+            .Where (_ => _ == GameState.Game)
+            .Subscribe (_ =>
             {
-                image.DOFade(1, 0.3f).Play();
-                _text.DOFade(1, 0.3f).Play();
+                image.DOFade (1, 0.3f).Play ();
+                _text.DOFade (1, 0.3f).Play ();
             })
-            .AddTo(this);
+            .AddTo (this);
 
         PlayGameSequence.State
-            .Where(_ => _ != GameState.Game)
-            .Subscribe(_ =>
+            .Where (_ => _ != GameState.Game)
+            .Subscribe (_ =>
             {
-                image.DOFade(0, 0.3f).Play();
-                _text.DOFade(0, 0.3f).Play();
+                image.DOFade (0, 0.3f).Play ();
+                _text.DOFade (0, 0.3f).Play ();
             })
-            .AddTo(this);
+            .AddTo (this);
     }
 }
