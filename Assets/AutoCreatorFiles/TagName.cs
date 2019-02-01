@@ -40,5 +40,5 @@ public class TagName
 	/// return "ship"
 	/// </summary>
 	public static string @ship = ship;
-	public static readonly string[] TAGS = new string[] { Untagged,  Respawn,  Finish,  EditorOnly,  MainCamera,  Player,  GameController,  asteroid,  NavMeshSourceTag,  ship, };
+	public static readonly string[] TAGS = new string[] { "Untagged", "Respawn", "Finish", "EditorOnly", "MainCamera", "Player", "GameController", "asteroid", "NavMeshSourceTag", "ship"};
 }
