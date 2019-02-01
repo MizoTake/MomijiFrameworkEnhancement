@@ -7,12 +7,20 @@ jobs:
       - checkout
       - setup_remote_docker
       - run:
+          name: SetUp
+          command: |
+            UNITY_VERSION=2018.2.6f1
+            docker run -it --rm \
+            -v "$(pwd):/root/MomijiFrameworkEnhancement" \
+            gableroux/unity3d:$UNITY_VERSION \
+            bash
+      - run:
           name: Test
           command: |
             UNITY_EXECUTABLE="/Applications/Unity/Hub/Editor/2018.2.6f1/Unity.app/Contents/MacOS/Unity" 
-            ./local_test.sh
+            chmod +x ./local_test.sh
       - run:
           name: Build
           command: |
             UNITY_EXECUTABLE="/Applications/Unity/Hub/Editor/2018.2.6f1/Unity.app/Contents/MacOS/Unity" 
-            ./local_build.sh
+            chmod +x ./local_build.sh
