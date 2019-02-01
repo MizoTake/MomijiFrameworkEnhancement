@@ -7,8 +7,12 @@ jobs:
       - checkout
       - setup_remote_docker
       - run:
-          name: Greeting
-          command: echo Hello, world.
+          name: Test
+          command: |
+            UNITY_EXECUTABLE="/Applications/Unity/Hub/Editor/2018.2.6f1/Unity.app/Contents/MacOS/Unity" 
+            ./local_test.sh
       - run:
-          name: Print the Current Time
-          command: date
+          name: Build
+          command: |
+            UNITY_EXECUTABLE="/Applications/Unity/Hub/Editor/2018.2.6f1/Unity.app/Contents/MacOS/Unity" 
+            ./local_build.sh
