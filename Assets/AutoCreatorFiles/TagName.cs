@@ -28,5 +28,17 @@ public class TagName
 	/// return "GameController"
 	/// </summary>
 	public static string @GameController = GameController;
-	public static readonly string[] TAGS = new string[] { Untagged,  Respawn,  Finish,  EditorOnly,  MainCamera,  Player,  GameController, };
+	/// <summary>
+	/// return "asteroid"
+	/// </summary>
+	public static string @asteroid = asteroid;
+	/// <summary>
+	/// return "NavMeshSourceTag"
+	/// </summary>
+	public static string @NavMeshSourceTag = NavMeshSourceTag;
+	/// <summary>
+	/// return "ship"
+	/// </summary>
+	public static string @ship = ship;
+	public static readonly string[] TAGS = new string[] { Untagged,  Respawn,  Finish,  EditorOnly,  MainCamera,  Player,  GameController,  asteroid,  NavMeshSourceTag,  ship, };
 }

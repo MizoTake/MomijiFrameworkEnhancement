@@ -2,7 +2,7 @@
 -target:library
 -nowarn:0169
 -langversion:7
--out:F:/UnityProject/MomijiFrameworkEnhancement/Temp/Unity.Analytics.DataPrivacy.dll
+-out:F:/UnityProject/MomijiFrameworkEnhancement/Temp/Tests.dll
 -nostdlib
 -unsafe
 -r:"D:\Program Files\2018.3.2f1\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
@@ -35,6 +35,7 @@
 -r:"D:\Program Files\2018.3.2f1\Editor\Data\Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
 -r:"D:\Program Files\2018.3.2f1\Editor\Data\Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
 -r:"D:\Program Files\2018.3.2f1\Editor\Data\Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"D:\Program Files\2018.3.2f1\Editor\Data\Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll"
 -r:"D:\Program Files\2018.3.2f1\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
 -r:"D:\Program Files\2018.3.2f1\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
 -r:"D:\Program Files\2018.3.2f1\Editor\Data\Managed/UnityEngine/UnityEngine.StreamingModule.dll"
@@ -67,6 +68,7 @@
 -r:"D:\Program Files\2018.3.2f1\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll"
 -r:"D:\Program Files\2018.3.2f1\Editor\Data\Managed/UnityEditor.dll"
 -r:"D:\Program Files\2018.3.2f1\Editor\Data\Managed/Unity.Locator.dll"
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/MomijiAssembly.dll
 -r:"D:/Program Files/2018.3.2f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
 -r:"D:/Program Files/2018.3.2f1/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
 -r:"D:/Program Files/2018.3.2f1/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll"
@@ -318,7 +320,5 @@
 -d:UNITY_POST_PROCESSING_STACK_V2
 -d:CSHARP_7_OR_LATER
 -d:CSHARP_7_3_OR_NEWER
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.analytics@3.2.2/DataPrivacy/AssemblyInfo.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.analytics@3.2.2/DataPrivacy/DataPrivacy.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Library/PackageCache/com.unity.analytics@3.2.2/DataPrivacy/DataPrivacyButton.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/MomijiFramework/Scripts/Tests/TestGetRequest.cs
 -v:0
