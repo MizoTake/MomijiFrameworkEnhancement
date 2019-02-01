@@ -2,9 +2,10 @@ version: 2
 jobs:
   build:
     docker:
-      - image: debian:stretch
+      - image: gableroux/unity3d:2018.2.6f1
     steps:
       - checkout
+      - setup_remote_docker
       - run:
           name: Greeting
           command: echo Hello, world.
