@@ -1,0 +1,51 @@
+version: 2
+jobs:
+  setup:
+    docker:
+      - image: gableroux/unity3d:2018.2.6f1
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: SetUp
+          command: |
+            UNITY_VERSION=2018.2.6f1
+            # docker run -it --rm \
+            # -v "$(pwd):/root/MomijiFrameworkEnhancement" \
+            # gableroux/unity3d:$UNITY_VERSION \
+            # bash
+            chmod +x ./ci/before_script.sh && ./ci/before_script.sh
+
+jobs:
+  build:
+    docker:
+      - image: gableroux/unity3d:2018.2.6f1
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: Build
+          command: |
+            UNITY_EXECUTABLE="/Applications/Unity/Hub/Editor/2018.2.6f1/Unity.app/Contents/MacOS/Unity" 
+            - chmod +x ./ci/build.sh && ./ci/build.sh
+
+jobs:
+  test:
+    docker:
+      - image: gableroux/unity3d:2018.2.6f1
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: Test
+          command: |
+            UNITY_EXECUTABLE="/Applications/Unity/Hub/Editor/2018.2.6f1/Unity.app/Contents/MacOS/Unity" 
+            chmod +x ./ci/test.sh && ./ci/test.sh
+
+workflows:
+  version: 2
+  test-and-build:
+    jobs:
+      - setup
+      - test
+      - build
