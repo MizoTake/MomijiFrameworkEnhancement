@@ -324,6 +324,7 @@
 -i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/MomijiFramework/Editor/AutoCreator/SceneInfoCreator.cs
 -i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/MomijiFramework/Editor/AutoCreator/TagNameCreator.cs
 -i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/MomijiFramework/Editor/BuildBatch.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/MomijiFramework/Editor/BuildCommand.cs
 -i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/MomijiFramework/Editor/CreateScriptableObjectMenu.cs
 -i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/MomijiFramework/Editor/CreateUseLicenseFile.cs
 -i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/MomijiFramework/Editor/EditorExtensionConst.cs

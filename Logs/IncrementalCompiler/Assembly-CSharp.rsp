@@ -5,6 +5,7 @@
 -out:F:/UnityProject/MomijiFrameworkEnhancement/Temp/Assembly-CSharp.dll
 -nostdlib
 -unsafe
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/MomijiAssembly.dll
 -r:"D:\Program Files\2018.3.2f1\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
 -r:"D:\Program Files\2018.3.2f1\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
 -r:"D:\Program Files\2018.3.2f1\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
@@ -79,7 +80,6 @@
 -r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
 -r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll
 -r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
--r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/MomijiAssembly.dll
 -r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/UniRx.Async.dll
 -r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/UniRx.Async.Editor.dll
 -r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
