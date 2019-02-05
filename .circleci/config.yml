@@ -3,6 +3,12 @@ references:
   docker_image: &docker_image
     docker:
       - image: gableroux/unity3d:2018.2.6f1
+    setup_unity_license_env_var: &setup_unity_license_env_var
+    command: |
+      openssl version
+      openssl aes-256-cbc -md md5 -d -in ./ci/Unity_v2018.x.ulf-cipher -out Unity_v2018.x.ulf -k $KEY
+      export UNITY_LICENSE_CONTENT=`cat Unity_v2018.x.ulf`
+      rm Unity_v2018.x.ulf
 jobs:
   test_editmode:
     <<: *docker_image
@@ -13,6 +19,8 @@ jobs:
       - run:
           command: apt-get update && apt-get install -y git && git --version
       - checkout
+      - run:
+        <<: *setup_unity_license_env_var
       - run:
           environment:
             TEST_PLATFORM: editmode
@@ -29,6 +37,8 @@ jobs:
           command: apt-get update && apt-get install -y git && git --version
       - checkout
       - run:
+        <<: *setup_unity_license_env_var
+      - run:
           environment:
             TEST_PLATFORM: playmode
           command: |
@@ -43,6 +53,8 @@ jobs:
       - run:
           command: apt-get update && apt-get install -y git && git --version
       - checkout
+      - run:
+        <<: *setup_unity_license_env_var
       - run:
           environment:
             BUILD_TARGET: StandaloneLinux64
