@@ -6,6 +6,7 @@
 -nostdlib
 -unsafe
 -r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Assembly-CSharp.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/MomijiAssembly.dll
 -r:"D:\Program Files\2018.3.2f1\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
 -r:"D:\Program Files\2018.3.2f1\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
 -r:"D:\Program Files\2018.3.2f1\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
@@ -93,6 +94,7 @@
 -r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.TextMeshPro.dll
 -r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
 -r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Zenject.dll
+-r:F:/UnityProject/MomijiFrameworkEnhancement/Library/ScriptAssemblies/Utf8Json.dll
 -r:"D:/Program Files/2018.3.2f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
 -r:"D:/Program Files/2018.3.2f1/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
 -r:"D:/Program Files/2018.3.2f1/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll"
@@ -344,13 +346,6 @@
 -d:UNITY_POST_PROCESSING_STACK_V2
 -d:CSHARP_7_OR_LATER
 -d:CSHARP_7_3_OR_NEWER
--i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/MomijiFramework/Editor/AutoCreator/AudioEnumCreator.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/MomijiFramework/Editor/AutoCreator/LayerEnumCreator.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/MomijiFramework/Editor/AutoCreator/SceneInfoCreator.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/MomijiFramework/Editor/AutoCreator/TagNameCreator.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/MomijiFramework/Editor/BuildBatch.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/MomijiFramework/Editor/CreateScriptableObjectMenu.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/MomijiFramework/Editor/CreateUseLicenseFile.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/MomijiFramework/Editor/EditorExtensionConst.cs
--i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/MomijiFramework/Editor/MomijPostprocesser.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Editor/BuildBatch.cs
+-i:F:/UnityProject/MomijiFrameworkEnhancement/Assets/Editor/BuildCommand.cs
 -v:0

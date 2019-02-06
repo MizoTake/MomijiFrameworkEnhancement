@@ -8,10 +8,10 @@ public sealed class SceneInfo
 	/// </summary>
 	public enum SceneEnum
 	{
-		SampleRequest = 0
+		Test = 0
 	};
 	/// <summary>
 	/// Access Scene Name Array
 	/// </summary>
-	public static readonly string[] SceneNames = new string[] { "SampleRequest" }; 
+	public static readonly string[] SceneNames = new string[] { "Test" }; 
 }
