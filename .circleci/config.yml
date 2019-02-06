@@ -5,7 +5,7 @@ references:
       - image: gableroux/unity3d:2018.2.6f1
   setup_unity_license_env_var: &setup_unity_license_env_var
     command: |
-      apt-get --reinstall install libnotify-bin notify-osd
+      apt-get -y --reinstall install libnotify-bin notify-osd
       mkdir -p /root/.cache/unity3d
       mkdir -p /root/.local/share/unity3d/Unity/
       openssl version
