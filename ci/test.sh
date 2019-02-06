@@ -12,7 +12,8 @@ xvfb-run --auto-servernum --server-args='-screen 0 640x480x24' \
     -batchmode \
     -nographics  \
     -username $UNITY_USERNAME \
-    -password $UNITY_PASSWORD
+    -password $UNITY_PASSWORD \
+    -returnlicense
     # -manualLicenseFile /Unity_v2018.ulf
 
 UNITY_EXIT_CODE=$?
