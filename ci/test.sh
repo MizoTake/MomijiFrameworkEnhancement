@@ -10,6 +10,7 @@ xvfb-run --auto-servernum --server-args='-screen 0 640x480x24' \
     -testResults $(pwd)/$TEST_PLATFORM-results.xml \
     -logFile \
     -batchmode
+    -nographics
 
 UNITY_EXIT_CODE=$?
 

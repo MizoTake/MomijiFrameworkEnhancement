@@ -13,14 +13,15 @@ xvfb-run --auto-servernum --server-args='-screen 0 640x480x24' \
     -projectPath $(pwd) \
     -quit \
     -batchmode \
+    -executeMethod BuildBatch.BuildExe \
+    -logFile
+    -nographics
     # -buildTarget $BUILD_TARGET \
     # -customBuildTarget $BUILD_TARGET \
     # -customBuildName $BUILD_NAME \
     # -customBuildPath $BUILD_PATH \
     # -customBuildOptions AcceptExternalModificationsToPlayer \
     # -executeMethod BuildCommand.PerformBuild \
-    -executeMethod BuildBatch.BuildExe \
-    -logFile
 
 UNITY_EXIT_CODE=$?
 
