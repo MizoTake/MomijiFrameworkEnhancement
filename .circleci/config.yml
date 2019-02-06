@@ -7,7 +7,7 @@ references:
     command: |
       mkdir -p /root/.cache/unity3d
       mkdir -p /root/.local/share/unity3d/Unity/
-      echo "$UNITY_LICENSE_CONTENT" | tr -d '\r' > "/root/.local/share/unity3d/Unity/Unity_lic.ulf"
+      echo "$UNITY_LICENSE_CONTENT" | tr -d '\r\n' > "/root/.local/share/unity3d/Unity/Unity_lic.ulf"
     #   openssl version
     #   openssl aes-256-cbc -md md5 -d -in ./ci/Unity_v2018.ulf-cipher -out /Unity_v2018.ulf -k $KEY
     #   export UNITY_LICENSE_CONTENT=`cat /Unity_v2018.ulf`
