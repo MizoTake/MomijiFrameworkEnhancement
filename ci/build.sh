@@ -20,6 +20,8 @@ xvfb-run --auto-servernum --server-args='-screen 0 640x480x24' \
     -customBuildOptions AcceptExternalModificationsToPlayer \
     -executeMethod BuildCommand.PerformBuild \
     -logFile
+    -nographics
+    -manualLicenseFile $UNITY_LICENSE_CONTENT
 
 UNITY_EXIT_CODE=$?
 
