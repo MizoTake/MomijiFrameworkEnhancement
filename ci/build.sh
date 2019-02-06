@@ -21,7 +21,7 @@ xvfb-run --auto-servernum --server-args='-screen 0 640x480x24' \
     -executeMethod BuildCommand.PerformBuild \
     -logFile \
     -nographics \
-    -manualLicenseFile ./Unity_v2018.ulf
+    -manualLicenseFile /Unity_v2018.ulf
 
 UNITY_EXIT_CODE=$?
 
