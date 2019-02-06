@@ -14,6 +14,7 @@ references:
   remove_license_file: &remove_license_file
     command: |
       rm /Unity_v2018.ulf
+      rm /root/.local/share/unity3d/Unity/Unity_lic.ulf
 jobs:
   test_editmode:
     <<: *docker_image
