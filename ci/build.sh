@@ -8,12 +8,12 @@ echo "Building for $BUILD_TARGET"
 export BUILD_PATH=./Builds/$BUILD_TARGET/
 mkdir -p $BUILD_PATH
 
-xvfb-run --auto-servernum --server-args='-screen 0 640x480x24' \
-/opt/Unity/Editor/Unity \
--logFile \
--batchmode \
--nographics \
--username $UNITY_USERNAME -password $UNITY_PASSWORD
+# xvfb-run --auto-servernum --server-args='-screen 0 640x480x24' \
+# /opt/Unity/Editor/Unity \
+# -logFile \
+# -batchmode \
+# -nographics \
+# -username $UNITY_USERNAME -password $UNITY_PASSWORD
 
 xvfb-run --auto-servernum --server-args='-screen 0 640x480x24' \
   /opt/Unity/Editor/Unity \
@@ -28,8 +28,8 @@ xvfb-run --auto-servernum --server-args='-screen 0 640x480x24' \
     -executeMethod BuildCommand.PerformBuild \
     -logFile \
     -nographics \
-    -manualLicenseFile /Unity_v2018.ulf \
-    -returnlicense
+    -username $UNITY_USERNAME -password $UNITY_PASSWORD
+
 
 UNITY_EXIT_CODE=$?
 
