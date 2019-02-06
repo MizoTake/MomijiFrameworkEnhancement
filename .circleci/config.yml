@@ -6,15 +6,13 @@ references:
   setup_unity_license_env_var: &setup_unity_license_env_var
     command: |
       xvfb-run --auto-servernum --server-args='-screen 0 640x480x24' \
-      /opt/Unity/Editor/Unity \
-      -logFile \
-      -batchmode \
-      -username "$UNITY_USERNAME" -password "$UNITY_PASSWORD"
+        /opt/Unity/Editor/Unity \
+        -logFile \
+        -batchmode \
+        -username "$UNITY_USERNAME" -password "$UNITY_PASSWORD"
       openssl version
       openssl aes-256-cbc -md md5 -d -in ./ci/Unity_v2017.ulf.cipher -out /Unity_v2017.ulf -k $KEY
       export UNITY_LICENSE_CONTENT=`cat /Unity_v2017.ulf`
-  after_license_process: &after_license_process
-    command: |
       rm /Unity_v2017.ulf
 jobs:
   test_editmode:
@@ -37,8 +35,6 @@ jobs:
       - store_artifacts:
           path: '$(pwd)/$TEST_PLATFORM-results.xml'
           destination: '$TEST_PLATFORM-results.xml'
-      - run:
-          <<: *after_license_process
   test_playmode:
     <<: *docker_image
     steps:
@@ -56,8 +52,6 @@ jobs:
       - store_artifacts:
           path: '$(pwd)/$TEST_PLATFORM-results.xml'
           destination: '$TEST_PLATFORM-results.xml'
-      - run:
-          <<: *after_license_process
   build_StandaloneLinux64:
     <<: *docker_image
     steps:
@@ -74,8 +68,6 @@ jobs:
             ./ci/build.sh
       - store_artifacts:
           path: './Builds/'
-      - run:
-          <<: *after_license_process
 workflows:
   version: 2
   test_and_build:
