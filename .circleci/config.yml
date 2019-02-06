@@ -10,6 +10,8 @@ references:
       openssl version
       openssl aes-256-cbc -md md5 -d -in ./ci/Unity_v2018.ulf-cipher -out /Unity_v2018.ulf -k $KEY
       export UNITY_LICENSE_CONTENT=`cat /Unity_v2018.ulf`
+  remove_license_file: &remove_license_file
+    command: |
       rm /Unity_v2018.ulf
 jobs:
   test_editmode:
@@ -29,6 +31,8 @@ jobs:
           command: |
             chmod -R 755 ./ci/test.sh
             ./ci/test.sh
+      - run:
+          <<: *remove_license_file
       - store_artifacts:
           path: '$(pwd)/$TEST_PLATFORM-results.xml'
           destination: '$TEST_PLATFORM-results.xml'
@@ -46,6 +50,8 @@ jobs:
           command: |
             chmod -R 755 ./ci/test.sh
             ./ci/test.sh
+      - run:
+          <<: *remove_license_file
       - store_artifacts:
           path: '$(pwd)/$TEST_PLATFORM-results.xml'
           destination: '$TEST_PLATFORM-results.xml'
@@ -63,6 +69,8 @@ jobs:
           command: |
             chmod -R 755 ./ci/build.sh
             ./ci/build.sh
+      - run:
+          <<: *remove_license_file
       - store_artifacts:
           path: './Builds/'
 workflows:
