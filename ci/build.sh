@@ -27,9 +27,7 @@ xvfb-run --auto-servernum --server-args='-screen 0 640x480x24' \
     -customBuildOptions AcceptExternalModificationsToPlayer \
     -executeMethod BuildCommand.PerformBuild \
     -logFile \
-    -nographics \
-    -username $UNITY_USERNAME -password $UNITY_PASSWORD \
-    -returnlicense
+    -nographics 
 
 UNITY_EXIT_CODE=$?
 
